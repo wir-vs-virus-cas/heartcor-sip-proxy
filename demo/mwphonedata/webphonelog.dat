@@ -1,0 +1,1182 @@
+[2020.03.21 17:46:13:319] EVENT,set iswsptrt30 to 4 autotransportdetect=no usetunneling=0 {1} [3091]
+[2020.03.21 18:03:56:922] EVENT,set iswsptrt30 to 4 autotransportdetect=no usetunneling=0 {1} [4739]
+[2020.03.21 18:03:57:040] EVENT, upper server set9 to    {1} [4739]
+[2020.03.21 18:03:57:105] EVENT,common initialized {1} [4739]
+[2020.03.21 18:03:57:304] EVENT,common initialized1 [wpmain] {1} [4739]
+[2020.03.21 18:03:57:304] EVENT,apicall API_SetParameter loglevel,5 [wpmain] {1} [4739]
+[2020.03.21 18:03:57:305] EVENT,read config file C:\TakePart Projekt\Registration\demo(1)\demo\mwphonedata\u88wpcfgex.dat (2619) {1} [4739]
+[2020.03.21 18:03:57:306] EVENT, configex load finished 113 {1} [4739]
+[2020.03.21 18:03:57:307] EVENT,      set parameter (from 6) loglevel=5 {1} [4739]
+[2020.03.21 18:03:57:307] EVENT,param loglevel set to 5 [wpmain] {1} [4739]
+[2020.03.21 18:03:57:308] EVENT,apicall API_SetParameter logtoconsole,true [wpmain] {1} [4739]
+[2020.03.21 18:03:57:309] EVENT,      set parameter (from 6) logtoconsole=true {1} [4739]
+[2020.03.21 18:03:57:316] EVENT,async task start MATASK_COMMONINIT2 (false/0//) {20} [4739]
+[2020.03.21 18:03:57:317] EVENT,serveraddrlst2: a (170):  b:  c:  d:  e:  f:  g:  h:  i:  j:  {20} [4739]
+[2020.03.21 18:03:57:318] EVENT,param logtoconsole set to true [wpmain] {1} [4739]
+[2020.03.21 18:03:57:321] EVENT,apicall API_SetParameter polling,3 [wpmain] {1} [4739]
+[2020.03.21 18:03:57:323] EVENT,      set parameter (from 6) polling=3 {1} [4739]
+[2020.03.21 18:03:57:324] EVENT,param polling set to 3 [wpmain] {1} [4739]
+[2020.03.21 18:03:57:338] EVENT,apicall API_SetParameter startsipstack,1 [wpmain] {1} [4739]
+[2020.03.21 18:03:57:862] EVENT,      set parameter (from 6) startsipstack=1 {1} [4739]
+[2020.03.21 18:03:57:951] EVENT,param startsipstack set to 1 [wpmain] {1} [4739]
+[2020.03.21 18:03:57:961] EVENT,apicall API_SetParameter register,1 [wpmain] {1} [4739]
+[2020.03.21 18:03:57:963] EVENT,      set parameter (from 6) register=1 {1} [4739]
+[2020.03.21 18:03:58:099] EVENT, register parameter should not be set at runtime {1} [4739]
+[2020.03.21 18:03:58:482] EVENT,param register set to 1 [wpmain] {1} [4739]
+[2020.03.21 18:03:58:487] EVENT,apicall API_SetParameter serveraddress,sipgate.de [wpmain] {1} [4739]
+[2020.03.21 18:03:58:517] EVENT,      set parameter (from 6) serveraddress=sipgate.de {1} [4739]
+[2020.03.21 18:03:58:526] EVENT,serveraddrlst12: a (102):  b: sipgate.de c:  d:  e:  f:  g:  h:  i:  j:  {20} [4739]
+[2020.03.21 18:03:58:529] EVENT,check ip for sipgate.de from 6102 {20} [4739]
+[2020.03.21 18:03:58:533] EVENT,force check ip for sipgate.de fromcode: 6102 {20} [4739]
+[2020.03.21 18:03:58:536] EVENT,      get parameter (from 10014) dnscache_ip0=159.69.64.138 {20} [4739]
+[2020.03.21 18:03:58:538] EVENT,      get parameter (from 10014) dnscache_ip1=159.69.64.138 {20} [4739]
+[2020.03.21 18:03:58:541] EVENT,      get parameter (from 10014) dnscache_ip2=148.251.28.180 {20} [4739]
+[2020.03.21 18:03:58:553] EVENT,      get parameter (from 10014) dnscache_ip3=148.251.28.180 {20} [4739]
+[2020.03.21 18:03:58:557] EVENT,      get parameter (from 10014) dnscache_ip4=148.251.28.179 {20} [4739]
+[2020.03.21 18:03:58:563] EVENT,      get parameter (from 10014) dnscache_ip5=148.251.28.179 {20} [4739]
+[2020.03.21 18:03:58:567] EVENT, srv dns record request for sipgate.de fromcode: 6102 {20} [4739]
+[2020.03.21 18:03:58:578] EVENT,async task start MATASK_DNSLOOKUP_SRV (false/6102/sipgate.de/forced) {23} [4739]
+[2020.03.21 18:03:58:663] EVENT,param serveraddress set to sipgate.de [wpmain] {1} [4739]
+[2020.03.21 18:03:58:678] EVENT,apicall API_SetParameter username,2913957e0 [wpmain] {1} [4739]
+[2020.03.21 18:03:58:688] EVENT,      set parameter (from 6) username=2913957e0 {1} [4739]
+[2020.03.21 18:03:58:701] EVENT,param username set to 2913957e0 [wpmain] {1} [4739]
+[2020.03.21 18:03:58:703] EVENT,apicall API_SetParameter password,AT9RRjf7Q4Bx [wpmain] {1} [4739]
+[2020.03.21 18:03:58:706] EVENT,      set parameter (from 6) password=***** {1} [4739]
+[2020.03.21 18:03:58:722] EVENT,param password set to AT9RRjf7Q4Bx [wpmain] {1} [4739]
+[2020.03.21 18:03:58:724] EVENT,apicall API_SetParameter use_pcmu,3 [wpmain] {1} [4739]
+[2020.03.21 18:03:58:728] EVENT,      set parameter (from 6) use_pcmu=3 {1} [4739]
+[2020.03.21 18:03:58:732] EVENT,param use_pcmu set to 3 [wpmain] {1} [4739]
+[2020.03.21 18:03:58:734] EVENT,apicall API_SetParameter use_pcma,2 [wpmain] {1} [4739]
+[2020.03.21 18:03:58:740] EVENT,      set parameter (from 6) use_pcma=2 {1} [4739]
+[2020.03.21 18:03:58:746] EVENT,param use_pcma set to 2 [wpmain] {1} [4739]
+[2020.03.21 18:03:58:749] EVENT,apicall API_SetParameter use_g729,2 [wpmain] {1} [4739]
+[2020.03.21 18:03:58:750] EVENT,      set parameter (from 6) use_g729=2 {1} [4739]
+[2020.03.21 18:03:58:755] EVENT,param use_g729 set to 2 [wpmain] {1} [4739]
+[2020.03.21 18:03:58:758] EVENT,apicall API_SetParameter use_gsm,2 [wpmain] {1} [4739]
+[2020.03.21 18:03:58:771] EVENT,      set parameter (from 6) use_gsm=2 {1} [4739]
+[2020.03.21 18:03:58:780] EVENT,param use_gsm set to 2 [wpmain] {1} [4739]
+[2020.03.21 18:03:58:783] EVENT,apicall API_SetParameter use_speex,1 [wpmain] {1} [4739]
+[2020.03.21 18:03:58:788] EVENT,      set parameter (from 6) use_speex=1 {1} [4739]
+[2020.03.21 18:03:58:795] EVENT,param use_speex set to 1 [wpmain] {1} [4739]
+[2020.03.21 18:03:58:797] EVENT,apicall API_SetParameter use_speexwb,1 [wpmain] {1} [4739]
+[2020.03.21 18:03:58:801] EVENT,      set parameter (from 6) use_speexwb=1 {1} [4739]
+[2020.03.21 18:03:58:804] EVENT,param use_speexwb set to 1 [wpmain] {1} [4739]
+[2020.03.21 18:03:58:807] EVENT,apicall API_SetParameter use_speexuwb,1 [wpmain] {1} [4739]
+[2020.03.21 18:03:58:812] EVENT,      set parameter (from 6) use_speexuwb=1 {1} [4739]
+[2020.03.21 18:03:58:815] EVENT,param use_speexuwb set to 1 [wpmain] {1} [4739]
+[2020.03.21 18:03:58:817] EVENT,apicall API_SetParameter use_opus,1 [wpmain] {1} [4739]
+[2020.03.21 18:03:58:819] EVENT,      set parameter (from 6) use_opus=1 {1} [4739]
+[2020.03.21 18:03:58:821] EVENT,param use_opus set to 1 [wpmain] {1} [4739]
+[2020.03.21 18:03:58:823] EVENT,apicall API_SetParameter use_opuswb,1 [wpmain] {1} [4739]
+[2020.03.21 18:03:58:826] EVENT,      set parameter (from 6) use_opuswb=1 {1} [4739]
+[2020.03.21 18:03:58:828] EVENT,param use_opuswb set to 1 [wpmain] {1} [4739]
+[2020.03.21 18:03:58:832] EVENT,apicall API_SetParameter use_opusuwb,1 [wpmain] {1} [4739]
+[2020.03.21 18:03:58:834] EVENT,      set parameter (from 6) use_opusuwb=1 {1} [4739]
+[2020.03.21 18:03:58:836] EVENT,param use_opusuwb set to 1 [wpmain] {1} [4739]
+[2020.03.21 18:03:58:839] EVENT,apicall API_SetParameter use_opusswb,1 [wpmain] {1} [4739]
+[2020.03.21 18:03:58:869] EVENT,      set parameter (from 6) use_opusswb=1 {1} [4739]
+[2020.03.21 18:03:58:878] EVENT,param use_opusswb set to 1 [wpmain] {1} [4739]
+[2020.03.21 18:03:58:880] EVENT,apicall API_SetParameter use_ilbc,1 [wpmain] {1} [4739]
+[2020.03.21 18:03:58:883] EVENT,      set parameter (from 6) use_ilbc=1 {1} [4739]
+[2020.03.21 18:03:58:885] EVENT,param use_ilbc set to 1 [wpmain] {1} [4739]
+[2020.03.21 18:03:58:886] EVENT,apicall API_SetParameter sendmedia_type,2 [wpmain] {1} [4739]
+[2020.03.21 18:03:58:888] EVENT,      set parameter (from 6) sendmedia_type=2 {1} [4739]
+[2020.03.21 18:03:58:891] EVENT,param sendmedia_type set to 2 [wpmain] {1} [4739]
+[2020.03.21 18:03:58:896] EVENT,apicall API_SetParameter sendmediain_to,0 [wpmain] {1} [4739]
+[2020.03.21 18:03:58:910] EVENT,      set parameter (from 6) sendmediain_to=0 {1} [4739]
+[2020.03.21 18:03:58:913] EVENT,param sendmediain_to set to 0 [wpmain] {1} [4739]
+[2020.03.21 18:03:58:914] EVENT,apicall API_SetParameter sendmediaout_to,22001 [wpmain] {1} [4739]
+[2020.03.21 18:03:58:918] EVENT,      set parameter (from 6) sendmediaout_to=22001 {1} [4739]
+[2020.03.21 18:03:58:921] EVENT,param sendmediaout_to set to 22001 [wpmain] {1} [4739]
+[2020.03.21 18:03:58:923] EVENT,apicall API_SetParameter sendmediaout_line,0 [wpmain] {1} [4739]
+[2020.03.21 18:03:58:924] EVENT,      set parameter (from 6) sendmediaout_line=0 {1} [4739]
+[2020.03.21 18:03:58:977] ERROR,param sendmediaout_line not found or failed to set [wpmain] {1} [4739]
+[2020.03.21 18:03:58:980] EVENT,apicall API_SetParameter sendmedia_marks,1 [wpmain] {1} [4739]
+[2020.03.21 18:03:58:982] EVENT,      set parameter (from 6) sendmedia_marks=1 {1} [4739]
+[2020.03.21 18:03:58:984] EVENT,param sendmedia_marks set to 1 [wpmain] {1} [4739]
+[2020.03.21 18:03:58:985] EVENT,apicall API_Start (0 452152517 rst: no) [wpmain] {1} [4739]
+[2020.03.21 18:03:58:986] EVENT,      get parameter (from 100111) register=1 {1} [4739]
+[2020.03.21 18:03:58:987] EVENT,      get parameter (from 100111) register=1 {1} [4739]
+[2020.03.21 18:03:59:049] EVENT,will auto register on api_start because 1 [wpmain] {1} [4739]
+[2020.03.21 18:03:59:063] EVENT,regdetails: s: -1 0 452152531 452151527 1004 [wpmain] {1} [4739]
+[2020.03.21 18:03:59:076] EVENT,on init [wpmain] {26} [4739]
+[2020.03.21 18:03:59:078] EVENT,      get parameter (from 100111) loglevel=5 {26} [4739]
+[2020.03.21 18:03:59:080] EVENT, wpapiconnectport set to m1 19421 [wpmain] {26} [4739]
+[2020.03.21 18:03:59:267] EVENT,check A record for sipgate.de. fromcode: 142 {23} [4739]
+[2020.03.21 18:03:59:310] EVENT, srv dns record 217.10.79.9:5060 priority: 0 weight: 0 {23} [4739]
+[2020.03.21 18:03:59:314] EVENT,async task dns srv finished for sipgate.de: 217.10.79.9 {23} [4739]
+[2020.03.21 18:03:59:316] EVENT,async task MATASK_DNSLOOKUP_SRV finished in 2147 msec with 0 (false/6102/sipgate.de/forced) {23} [4739]
+[2020.03.21 18:03:59:632] EVENT,environment: 
+ 	sysenv libconfig: issdk ISJVOIP ISDESKTOP ISWEBPHONE 
+	sysenv OS name: Windows 10 , arch: amd64 , vers: 10.0 , patch: - , type: x64 
+	sysenv CPU: little amd64  cpuspeed: 9000 (meassured: 0 0) cores: 8 dbg: 
+	sysenv JVM: Oracle Corporation Java(TM) SE Runtime Environment 12.0.2 
+	sysenv USR: DE de Europe/Berlin Anuja.Hariharan   CAS-N03677 C:\TakePart Projekt\Registration\demo(1)\demo 
+	sysenv path: C:\TakePart Projekt\Registration\demo(1)\demo, datapath: C:\TakePart Projekt\Registration\demo(1)\demo\mwphonedata, configfile: C:\TakePart Projekt\Registration\demo(1)\demo\mwphonedata\u88wpcfg.dat, logfile: C:\TakePart Projekt\Registration\demo(1)\demo\mwphonedata\webphonelog.dat, ext: C:\TakePart Projekt\Registration\demo(1)\demo\mwphonedata\, alt: C:\TakePart Projekt\Registration\demo(1)\demo\mwphonedata\, from: 413  a u88wpcfg.dat
+	toolkit: sun.awt.windows.WToolkit@12c9f181
+	domain: C:, host: C:\TakePart Projekt\Registration\demo(1)\demo, url: C:\TakePart Projekt\Registration\demo(1)\demo, lib: C:\Program Files\Java\jdk-12.0.2\bin
+	sysenv charsrt: UTF-8
+	deviceid: Z1Qavigg
+ [wpmain] {26} [4739]
+[2020.03.21 18:03:59:665] EVENT,JVoIP init (loglevel is 5) [wpmain] {26} [4739]
+[2020.03.21 18:03:59:666] EVENT,      get parameter (from 10014) lasttransport=0 {26} [4739]
+[2020.03.21 18:03:59:669] EVENT,      get parameter (from 10014) lasthttprecstreaming=8 {26} [4739]
+[2020.03.21 18:03:59:670] EVENT,      get parameter (from 10014) proxyauthreqcount=0 {26} [4739]
+[2020.03.21 18:03:59:674] EVENT,      get parameter (from 10014) plgoodcalls=0 {26} [4739]
+[2020.03.21 18:03:59:676] EVENT,      get parameter (from 10014) subsswitchtotcp=0 {26} [4739]
+[2020.03.21 18:03:59:683] EVENT,      get parameter (from 10014) subsnoudptry=0 {26} [4739]
+[2020.03.21 18:03:59:685] EVENT,      get parameter (from 10014) lastaltporttousecfg=0 {26} [4739]
+[2020.03.21 18:03:59:688] EVENT,      get parameter (from 10014) subsfailedudpport=0 {26} [4739]
+[2020.03.21 18:03:59:690] EVENT,      get parameter (from 10014) lastaltportchangeday=-2 {26} [4739]
+[2020.03.21 18:03:59:695] EVENT,      get parameter (from 10014) prevaltportused=0 {26} [4739]
+[2020.03.21 18:03:59:697] EVENT,      get parameter (from 10014) subsdirectaccessfail=0 {26} [4739]
+[2020.03.21 18:03:59:700] EVENT,      get parameter (from 10014) subsnodirectaccesstry=0 {26} [4739]
+[2020.03.21 18:03:59:702] EVENT,      get parameter (from 10014) subsnopacketloss=0 {26} [4739]
+[2020.03.21 18:03:59:705] EVENT,      get parameter (from 10014) subsnosucccall=-12 {26} [4739]
+[2020.03.21 18:03:59:728] EVENT,      get parameter (from 10014) finaltransport=0 {26} [4739]
+[2020.03.21 18:03:59:734] EVENT,      get parameter (from 10014) mserverfound=3 {26} [4739]
+[2020.03.21 18:03:59:739] EVENT,      get parameter (from 10014) subsdnsalookupdisable=0 {26} [4739]
+[2020.03.21 18:03:59:741] EVENT,      get parameter (from 10014) oldsignalingport=16778 {26} [4739]
+[2020.03.21 18:03:59:744] EVENT,      get parameter (from 10014) wasgoodhttpstreaming=0 {26} [4739]
+[2020.03.21 18:03:59:758] EVENT,      get parameter (from 10014) autotransport_tcpproxyfailed=0 {26} [4739]
+[2020.03.21 18:03:59:770] EVENT,      get parameter (from 10014) autotransport_tcpproxysocksfailed=0 {26} [4739]
+[2020.03.21 18:03:59:775] EVENT,      get parameter (from 10014) systemsockproxywasset=0 {26} [4739]
+[2020.03.21 18:03:59:779] EVENT,      get parameter (from 10014) aecwascached=2 {26} [4739]
+[2020.03.21 18:03:59:781] EVENT,      get parameter (from 10014) lastrtpportsaved=16780 {26} [4739]
+[2020.03.21 18:03:59:783] EVENT,      get parameter (from 10014) lastserverrtpport=17212 {26} [4739]
+[2020.03.21 18:03:59:796] EVENT,      get parameter (from 10014) lastrtppublicport=16780 {26} [4739]
+[2020.03.21 18:03:59:798] EVENT,      get parameter (from 10014) lastcfgfileversion=88 {26} [4739]
+[2020.03.21 18:03:59:801] EVENT,      get parameter (from 10014) lastrtppublicip=87.163.157.10 {26} [4739]
+[2020.03.21 18:03:59:805] EVENT,      get parameter (from 10014) lastrtppublicport2=16780 {26} [4739]
+[2020.03.21 18:03:59:811] EVENT,      get parameter (from 10014) sendvideoonrec=1 {26} [4739]
+[2020.03.21 18:03:59:817] EVENT,      get parameter (from 10014) presenceuserlist=,testivr3, {26} [4739]
+[2020.03.21 18:03:59:819] EVENT,      get parameter (from 10014) excontactlist=,testivr3, {26} [4739]
+[2020.03.21 18:03:59:822] EVENT,      get parameter (from 10014) blockedpresenceuserlist=,testivr3, {26} [4739]
+[2020.03.21 18:03:59:824] EVENT,      get parameter (from 10014) serverload=0 {26} [4739]
+[2020.03.21 18:03:59:827] EVENT, set server load: 0 {26} [4739]
+[2020.03.21 18:03:59:829] EVENT,      get parameter (from 10014) pushnotifications3=-1 {26} [4739]
+[2020.03.21 18:03:59:834] EVENT,      get parameter (from 10014) packagename=com.mizuvoip.mizudroid.app {26} [4739]
+[2020.03.21 18:03:59:837] EVENT,      get parameter (from 10014) fcmgateway=fcm.webvoipphone.com:35060 {26} [4739]
+[2020.03.21 18:03:59:839] EVENT,      get parameter (from 10014) pushnotifications=-1 {26} [4739]
+[2020.03.21 18:03:59:843] EVENT,      get parameter (from 10014) winaudioerrors88=8 {26} [4739]
+[2020.03.21 18:03:59:846] EVENT,read config file C:\TakePart Projekt\Registration\demo(1)\demo\mwphonedata\u88wpcfg.dat (211) {26} [4739]
+[2020.03.21 18:03:59:851] EVENT,config version 7000189 [wpmain] {26} [4739]
+[2020.03.21 18:03:59:855] WARNING,last call was not disconnected properly [wpmain] {26} [4739]
+[2020.03.21 18:03:59:862] EVENT,config read 69 [wpmain] {26} [4739]
+[2020.03.21 18:03:59:883] EVENT,      get parameter (from 100111) serveraddress=sipgate.de {26} [4739]
+[2020.03.21 18:03:59:885] EVENT,      get parameter (from 100111) startsipstack=1 {26} [4739]
+[2020.03.21 18:03:59:886] EVENT,      get parameter (from 100111) register=1 {26} [4739]
+[2020.03.21 18:03:59:887] EVENT,      get parameter (from 100111) password=***** {26} [4739]
+[2020.03.21 18:03:59:890] EVENT,      get parameter (from 10014) enablepresencesip=0 {26} [4739]
+[2020.03.21 18:03:59:892] EVENT,serveraddrlst2: a (75149):  b: voip.mizu-voip.com c:  d:  e:  f:  g:  h:  i:  j:  {26} [4739]
+[2020.03.21 18:03:59:896] EVENT,async task start MATASK_DNSLOOKUP_A (false/81149/voip.mizu-voip.com/) {28} [4739]
+[2020.03.21 18:03:59:900] EVENT,temp network interface address is 127.0.0.1 (with server: 217.10.79.9) {20} [4739]
+[2020.03.21 18:03:59:901] EVENT,serveraddrlst2: a (3542):  b: voip.mizu-voip.com c:  d:  e:  f:  g:  h:  i:  j:  {20} [4739]
+[2020.03.21 18:03:59:922] EVENT, A dns record 159.69.64.138 {28} [4739]
+[2020.03.21 18:03:59:924] EVENT,async task MATASK_DNSLOOKUP_A finished in 33 msec with 0 (false/81149/voip.mizu-voip.com/) {28} [4739]
+[2020.03.21 18:03:59:925] EVENT,temp network interface address is 10.242.6.159 (with server: 217.10.79.9) {20} [4739]
+[2020.03.21 18:03:59:928] EVENT,      get parameter (from 10014) enablepresencesip_1596964138=0 {26} [4739]
+[2020.03.21 18:03:59:930] EVENT,      get parameter (from 10014) packagename=com.mizuvoip.mizudroid.app {26} [4739]
+[2020.03.21 18:03:59:931] EVENT,      get parameter (from 10014) fcmgateway=fcm.webvoipphone.com:35060 {26} [4739]
+[2020.03.21 18:03:59:932] EVENT,      get parameter (from 10014) lasthasfcm=0 {26} [4739]
+[2020.03.21 18:03:59:934] EVENT,      get parameter (from 10014) pushnotifications=-1 {26} [4739]
+[2020.03.21 18:03:59:935] EVENT,temp network interface address is 192.168.178.65 (with server: 217.10.79.9) {20} [4739]
+[2020.03.21 18:03:59:936] EVENT, network addr set to 10.242.6.159 {20} [4739]
+[2020.03.21 18:03:59:937] EVENT, network addr2 set to 10.242.6.159 {20} [4739]
+[2020.03.21 18:03:59:938] EVENT,async task MATASK_COMMONINIT2 finished in 2968 msec with 0 (false/0//) {20} [4739]
+[2020.03.21 18:04:00:354] EVENT,      get parameter (from 10014) pastmaxcallcount=0 {26} [4739]
+[2020.03.21 18:04:00:355] EVENT,      get parameter (from 100111) use_gsm=2 {26} [4739]
+[2020.03.21 18:04:00:356] EVENT,      get parameter (from 100111) use_ilbc=1 {26} [4739]
+[2020.03.21 18:04:00:357] EVENT,      get parameter (from 100111) use_speex=1 {26} [4739]
+[2020.03.21 18:04:00:357] EVENT,      get parameter (from 100111) use_speexwb=1 {26} [4739]
+[2020.03.21 18:04:00:358] EVENT,      get parameter (from 100111) use_speexuwb=1 {26} [4739]
+[2020.03.21 18:04:00:359] EVENT,      get parameter (from 100111) use_opus=1 {26} [4739]
+[2020.03.21 18:04:00:360] EVENT,      get parameter (from 100111) use_opuswb=1 {26} [4739]
+[2020.03.21 18:04:00:361] EVENT,      get parameter (from 100111) use_opusuwb=1 {26} [4739]
+[2020.03.21 18:04:00:374] EVENT,      get parameter (from 100111) use_opusswb=1 {26} [4739]
+[2020.03.21 18:04:00:375] EVENT,      get parameter (from 10014) canloadg729=99 {26} [4739]
+[2020.03.21 18:04:00:376] EVENT,      get parameter (from 100111) use_g729=2 {26} [4739]
+[2020.03.21 18:04:00:377] EVENT,      get parameter (from 100111) use_g729=2 {26} [4739]
+[2020.03.21 18:04:00:378] EVENT,      get parameter (from 100111) use_pcmu=3 {26} [4739]
+[2020.03.21 18:04:00:379] EVENT,      get parameter (from 100111) use_pcma=2 {26} [4739]
+[2020.03.21 18:04:00:380] EVENT,      get parameter (from 100111) sendmedia_type=2 {26} [4739]
+[2020.03.21 18:04:00:381] EVENT,      get parameter (from 100111) sendmedia_marks=1 {26} [4739]
+[2020.03.21 18:04:00:382] EVENT,      get parameter (from 100111) sendmediain_to=0 {26} [4739]
+[2020.03.21 18:04:00:383] EVENT,      get parameter (from 100111) sendmediaout_to=22001 {26} [4739]
+[2020.03.21 18:04:00:384] EVENT,      get parameter (from 10014) presenceuserlist=,testivr3, {26} [4739]
+[2020.03.21 18:04:00:384] EVENT,      get parameter (from 10014) excontactlist=,testivr3, {26} [4739]
+[2020.03.21 18:04:00:385] EVENT,      get parameter (from 10014) askforwhitelist=1 {26} [4739]
+[2020.03.21 18:04:00:386] EVENT,      get parameter (from 10014) runservice=-1 {26} [4739]
+[2020.03.21 18:04:00:387] EVENT,      get parameter (from 10014) scheduledwakeup=1 {26} [4739]
+[2020.03.21 18:04:00:388] EVENT,      get parameter (from 100111) logtoconsole=true {26} [4739]
+[2020.03.21 18:04:00:389] EVENT,      get parameter (from 100111) polling=3 {26} [4739]
+[2020.03.21 18:04:00:391] EVENT, try to load js [wpmain] {26} [4739]
+[2020.03.21 18:04:00:394] WARNING, cannot find javascript interface [wpmain] {26} [4739]
+[2020.03.21 18:04:00:395] EVENT, upper server set0 to  /  /  {26} [4739]
+[2020.03.21 18:04:00:396] EVENT,      get parameter (from 100111) serveraddress=sipgate.de {26} [4739]
+[2020.03.21 18:04:00:397] EVENT,      get parameter (from 100111) serveraddress=sipgate.de {26} [4739]
+[2020.03.21 18:04:00:398] EVENT,      get parameter (from 100111) serveraddress=sipgate.de {26} [4739]
+[2020.03.21 18:04:00:437] EVENT,      get parameter (from 100111) username=2913957e0 {26} [4739]
+[2020.03.21 18:04:00:439] EVENT,      get parameter (from 10064) sipusername=2913957e0 {26} [4739]
+[2020.03.21 18:04:00:440] EVENT,      get parameter (from 100111) username=2913957e0 {26} [4739]
+[2020.03.21 18:04:00:441] EVENT,      get parameter (from 10064) sipusername=2913957e0 {26} [4739]
+[2020.03.21 18:04:00:443] EVENT,sipusername (auth) is 2913957e0 [wpmain] {26} [4739]
+[2020.03.21 18:04:00:444] EVENT,username (callerid) is 2913957e0 [wpmain] {26} [4739]
+[2020.03.21 18:04:00:445] EVENT,callto is  testivr3 [wpmain] {26} [4739]
+[2020.03.21 18:04:00:445] EVENT, lccccc trigger txr [wpmain] {26} [4739]
+[2020.03.21 18:04:00:446] EVENT, lccccc trigger xr {26} [4739]
+[2020.03.21 18:04:00:451] EVENT, lccccc trigger 10 {26} [4739]
+[2020.03.21 18:04:00:452] EVENT,      get parameter (from 10014) stunisnotokcount=-6 {26} [4739]
+[2020.03.21 18:04:00:454] EVENT,      get parameter (from 10014) allcallcount=6 {26} [4739]
+[2020.03.21 18:04:00:454] EVENT,      get parameter (from 10014) allsucccallcount=1 {26} [4739]
+[2020.03.21 18:04:00:455] EVENT,      get parameter (from 10014) lastcodecused=18 {26} [4739]
+[2020.03.21 18:04:00:456] EVENT,      get parameter (from 10014) audiodevicehash=8001 {26} [4739]
+[2020.03.21 18:04:00:457] EVENT,      get parameter (from 10014) audiodevicehash2=8001 {26} [4739]
+[2020.03.21 18:04:00:458] EVENT,      get parameter (from 10014) stat_jitter_start=0 {26} [4739]
+[2020.03.21 18:04:00:460] EVENT,      get parameter (from 10014) stat_jitter_all=0 {26} [4739]
+[2020.03.21 18:04:00:461] EVENT, autovalues aec: 2, aecfast: 1, aecnative: 1, aecorig: 1, agc: 2, denoise: 3, plc: true [wpmain] {26} [4739]
+[2020.03.21 18:04:00:461] EVENT,      get parameter (from 100111) password=***** {26} [4739]
+[2020.03.21 18:04:00:635] EVENT,JVoIP init finished2 [wpmain] {26} [4739]
+[2020.03.21 18:04:00:698] EVENT, conncurrent instances in the same classloader: 1 {26} [4739]
+[2020.03.21 18:04:00:711] EVENT,main thread started [wpmain] {26} [4739]
+[2020.03.21 18:04:00:712] EVENT,JVoIP start 8.0.20031 [wpmain] {26} [4739]
+[2020.03.21 18:04:00:714] EVENT,afterstart event [wpmain] {26} [4739]
+[2020.03.21 18:04:00:715] EVENT,app version: 8.0.20031 3/19/2020 11:23:38 [wpmain] {26} [4739]
+[2020.03.21 18:04:00:717] EVENT,app type: 3 [wpmain] {26} [4739]
+[2020.03.21 18:04:00:718] EVENT,codebase: null [wpmain] {26} [4739]
+[2020.03.21 18:04:00:722] EVENT,docbase: null [wpmain] {26} [4739]
+[2020.03.21 18:04:00:723] EVENT,archive:  [wpmain] {26} [4739]
+[2020.03.21 18:04:01:303] EVENT,local ip is 10.242.6.159 {26} [4739]
+[2020.03.21 18:04:01:304] EVENT,check ip for sipgate.de from 1 {26} [4739]
+[2020.03.21 18:04:01:305] EVENT, need for stun natcheck because server ip sipgate.de 217.10.79.9 {26} [4739]
+[2020.03.21 18:04:01:306] EVENT,NOTIFICATION_XRSS,START,api {26} [4739]
+[2020.03.21 18:04:01:312] EVENT,check ip for sipgate.de from 1111 {26} [4739]
+[2020.03.21 18:04:01:313] EVENT,afterstart natcheck 2 10.242.6.159 sipgate.de 217.10.79.9 [wpmain] {26} [4739]
+[2020.03.21 18:04:01:314] EVENT,afterstart autostart [wpmain] {26} [4739]
+[2020.03.21 18:04:01:328] EVENT,direct call URI parsing is not enabled c  [wpmain] {26} [4739]
+[2020.03.21 18:04:01:331] EVENT, set called ext i to testivr3 [wpmain] {26} [4739]
+[2020.03.21 18:04:01:332] EVENT,first routepath set to sipgate.de sipgate.de 5060 as user 2913957e0 [wpmain] {26} [4739]
+[2020.03.21 18:04:01:333] EVENT,save settings wpb [wpmain] {26} [4739]
+[2020.03.21 18:04:01:333] EVENT,udp nat bind to port 16778 (byf: 4) [stun natcheck] {32} [4739]
+[2020.03.21 18:04:01:334] EVENT,save settings wp [wpmain] {26} [4739]
+[2020.03.21 18:04:01:335] EVENT,write file C:\TakePart Projekt\Registration\demo(1)\demo\mwphonedata\u88wpcfg.dat (200) {26} [4739]
+[2020.03.21 18:04:01:336] EVENT,write file C:\TakePart Projekt\Registration\demo(1)\demo\mwphonedata\u88wpcfgex.dat (2753) {26} [4739]
+[2020.03.21 18:04:01:336] EVENT,config saved 200 [wpmain] {26} [4739]
+[2020.03.21 18:04:01:351] EVENT,starting sip stack [wpmain] {26} [4739]
+[2020.03.21 18:04:01:353] EVENT,waiting for mediaench to load and init [stun natcheck] {32} [4739]
+[2020.03.21 18:04:01:357] EVENT,set priority to service from mediaench1 {33} [4739]
+[2020.03.21 18:04:01:392] EVENT,mediaench thread start [mediaench 0] {33} [4739]
+[2020.03.21 18:04:01:394] EVENT,mediaench and aec load from system mediaench2x64 [mediaench 0] {33} [4739]
+[2020.03.21 18:04:01:395] EVENT, (warn) ctch on loadlib from local m no mediaench2x64 in java.library.path: [C:\Program Files\Java\jdk-12.0.2\bin, C:\Windows\Sun\Java\bin, C:\Windows\system32, C:\Windows, C:/Program Files/Java/jdk-12.0.2/bin/server, C:/Program Files/Java/jdk-12.0.2/bin, C:\Program Files\Oculus\Support\oculus-runtime, C:\Program Files\Java\jdk-12.0.2\bin, C:\Program Files\AdoptOpenJDK\jre-8.0.222.10-hotspot\bin, C:\Program Files (x86)\AdoptOpenJDK\jre-8.0.222.10-hotspot\bin, C:\Windows\system32, C:\Windows, C:\Windows\System32\Wbem, C:\Windows\System32\WindowsPowerShell\v1.0\, C:\Windows\System32\OpenSSH\, C:\Program Files (x86)\LOGIN\LOGINstall\, C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL, C:\Program Files\Intel\Intel(R) Management Engine Components\DAL, C:\Program Files (x86)\GtkSharp\2.12\bin, C:\Program Files\Intel\WiFi\bin\, C:\Program Files\Common Files\Intel\WirelessCommon\, C:\Users\anuja.hariharan\.dnx\bin, C:\Program Files\Microsoft DNX\Dnvm\, C:\Program Files\Microsoft SQL Server\130\Tools\Binn\, C:\Program Files\dotnet\, C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\, C:\Program Files\Git\cmd, C:\Program Files (x86)\Yarn\bin\, C:\Program Files\PuTTY\, C:\Program Files\nodejs\, C:\Users\anuja.hariharan\AppData\Local\Programs\Python\Python37-32\Scripts\, C:\Users\anuja.hariharan\AppData\Local\Programs\Python\Python37-32\, C:\Users\anuja.hariharan\AppData\Local\Microsoft\WindowsApps, C:\Users\anuja.hariharan\AppData\Local\Yarn\bin, C:\Users\anuja.hariharan\AppData\Roaming\npm, C:\Windows\system32, ., .] {33} [4739]
+[2020.03.21 18:04:01:419] EVENT,mediaench and aec load from system failed. load from local path... [mediaench 0] {33} [4739]
+[2020.03.21 18:04:01:456] EVENT,checking exact file path C:\TakePart Projekt\Registration\demo(1)\demo [mediaench 0] {33} [4739]
+[2020.03.21 18:04:01:457] EVENT,mediaench and aec load from local failed. load from web... [mediaench 0] {33} [4739]
+[2020.03.21 18:04:01:458] EVENT,mediaench load from web starting... [mediaench 0] {33} [4739]
+[2020.03.21 18:04:01:461] EVENT,mediaench load from web checking file cache1 C:\TakePart Projekt\Registration\demo(1)\demo\mwphonedata\mediaench2x64880.dll [mediaench 0] {33} [4739]
+[2020.03.21 18:04:01:465] EVENT,mediaench load from web load from file cache1 C:\TakePart Projekt\Registration\demo(1)\demo\mwphonedata\mediaench2x64880.dll [mediaench 0] {33} [4739]
+[2020.03.21 18:04:01:499] EVENT,mediaench loaded1 from C:\TakePart Projekt\Registration\demo(1)\demo\mwphonedata\mediaench2x64880.dll [mediaench 0] {33} [4739]
+[2020.03.21 18:04:01:541] EVENT,mediaench vx found 21 [mediaench 0] {33} [4739]
+[2020.03.21 18:04:01:545] EVENT,upnp port assigment failed -3 {33} [4739]
+[2020.03.21 18:04:01:568] EVENT,mediaench thread stop with succ 21 [mediaench 0] {33} [4739]
+[2020.03.21 18:04:01:574] EVENT,set priority to min from mediaench122 (idle: false) {33} [4739]
+[2020.03.21 18:04:01:600] EVENT,mediaench upnp ok 5 0 [stun natcheck] {32} [4739]
+[2020.03.21 18:04:01:601] EVENT, A dns record 148.251.28.180 {34} [4739]
+[2020.03.21 18:04:01:602] EVENT,async task start MATASK_DNSLOOKUP_A (false/0/voipserver.mizu-voip.com/) {35} [4739]
+[2020.03.21 18:04:01:603] EVENT,creating sip stack [mt: 0] {26} [4739]
+[2020.03.21 18:04:01:604] EVENT,starting sip stack 2 ... [wpmain] {26} [4739]
+[2020.03.21 18:04:01:605] EVENT,starting sip stack 3 ... [wpmain] {26} [4739]
+[2020.03.21 18:04:01:605] EVENT,sip stack initiated [wpmain] {26} [4739]
+[2020.03.21 18:04:01:607] EVENT,afterstart event finished [wpmain] {26} [4739]
+[2020.03.21 18:04:01:608] EVENT,sip stack run start... [mt: 48033] {36} [4739]
+[2020.03.21 18:04:01:611] EVENT,sip stack run on 10.242.6.159 [mt: 48033] {36} [4739]
+[2020.03.21 18:04:01:634] EVENT,sipstack initialising... [mt: 48033] {36} [4739]
+[2020.03.21 18:04:01:643] EVENT,check ip for sipgate.de from 9171 {36} [4739]
+[2020.03.21 18:04:01:654] EVENT, first tick no [wpmain] {26} [4739]
+[2020.03.21 18:04:01:666] EVENT, A dns record 148.251.28.179 {35} [4739]
+[2020.03.21 18:04:01:673] EVENT,async task MATASK_DNSLOOKUP_A finished in 39 msec with 0 (false/0/voipserver.mizu-voip.com/) {35} [4739]
+[2020.03.21 18:04:01:678] EVENT,stun answer received for local: 10.242.6.159:16778 as extern: 87.163.157.10:16778 from server port: 44446 [stun natcheck] {32} [4739]
+[2020.03.21 18:04:01:679] EVENT,udp nat from first server 87.163.157.10:16778 [stun natcheck] {32} [4739]
+[2020.03.21 18:04:01:680] EVENT,stun answer received for local: 10.242.6.159:16778 as extern: 87.163.157.10:16778 from server port: 44447 [stun natcheck] {32} [4739]
+[2020.03.21 18:04:01:682] EVENT,udp nat detected public: 87.163.157.10:16778 match: 2 private: 87.163.157.10:16778 public: 87.163.157.10:16778 [stun natcheck] {32} [4739]
+[2020.03.21 18:04:02:136] EVENT,network status is CONNECTED 101 101 {36} [4739]
+[2020.03.21 18:04:02:136] EVENT,network status is CONNECTED {36} [4739]
+[2020.03.21 18:04:02:272] EVENT,sipstack initialising b...(Opendevices: 0 0) [mt: 48033] {36} [4739]
+[2020.03.21 18:04:02:274] EVENT,local signaling port using oldsignalingport 16778 [mt: 48033] {36} [4739]
+[2020.03.21 18:04:02:311] EVENT, autotransportdetect=no, usetunneling=1 [mt: 48033] {36} [4739]
+[2020.03.21 18:04:02:312] EVENT,      get parameter (from 100111) register=1 {36} [4739]
+[2020.03.21 18:04:02:313] EVENT,set statustext from 3 to Connecting... {36} [4739]
+[2020.03.21 18:04:02:314] EVENT,check ip for sipgate.de from 27 {36} [4739]
+[2020.03.21 18:04:02:360] EVENT, check mep call state [mt: 48033] {26} [4739]
+[2020.03.21 18:04:02:741] EVENT,      get parameter (from 10014) stat_stunfailcount=0 {36} [4739]
+[2020.03.21 18:04:02:755] EVENT,udp init [udp localport: 0 since: 0 ok] {36} [4739]
+[2020.03.21 18:04:02:756] EVENT,udp bind to port 16778 (signaling) [udp localport: 0 since: 0 ok] {36} [4739]
+[2020.03.21 18:04:02:757] EVENT,set priority to service from udp111 {38} [4739]
+[2020.03.21 18:04:03:080] EVENT,NOTIFICATION_XRSS,START,sip {36} [4739]
+[2020.03.21 18:04:03:081] EVENT,mainthread init done. privateaddress: 10.242.6.159:16778 publicaddress: 87.163.157.10:16778 [mt: 48033] {36} [4739]
+[2020.03.21 18:04:03:081] EVENT, network state initialized as online [mt: 48033] {36} [4739]
+[2020.03.21 18:04:03:081] EVENT,      get parameter (from 10014) country=DE {36} [4739]
+[2020.03.21 18:04:03:082] EVENT,      get parameter (from 10014) geolocationtrycount=1 {36} [4739]
+[2020.03.21 18:04:03:166] EVENT,on sip stack started [wpmain] {26} [4739]
+[2020.03.21 18:04:03:168] EVENT,NOTIFICATION_XRSS,STATUS,-1,Initialized {26} [4739]
+[2020.03.21 18:04:03:172] EVENT,sip stack started event finished [wpmain] {26} [4739]
+[2020.03.21 18:04:03:173] EVENT,afterstart delayed register [wpmain] {26} [4739]
+[2020.03.21 18:04:03:173] EVENT,Connect initiated a [wpmain] {26} [4739]
+[2020.03.21 18:04:03:174] EVENT,direct call URI parsing is not enabled c  [wpmain] {26} [4739]
+[2020.03.21 18:04:03:174] EVENT, set called ext i to testivr3 [wpmain] {26} [4739]
+[2020.03.21 18:04:03:181] EVENT,first routepath set to sipgate.de sipgate.de 5060 as user 2913957e0 [wpmain] {26} [4739]
+[2020.03.21 18:04:03:182] EVENT,save settings wpb [wpmain] {26} [4739]
+[2020.03.21 18:04:03:183] EVENT,save settings wp [wpmain] {26} [4739]
+[2020.03.21 18:04:03:184] EVENT,config saved 200 [wpmain] {26} [4739]
+[2020.03.21 18:04:03:184] EVENT,NOTIFICATION_XRSS,STATUS,-1,Register... {26} [4739]
+[2020.03.21 18:04:03:185] EVENT,will register 20 [wpmain] {26} [4739]
+[2020.03.21 18:04:03:186] EVENT,NOTIFICATION_XRSS,STATUS,-1,Connecting... {26} [4739]
+[2020.03.21 18:04:03:187] EVENT,set statustext from 5 to  {26} [4739]
+[2020.03.21 18:04:03:187] EVENT,reg state changed from [failed-2] to [not needed] (0) from 52 {26} [4739]
+[2020.03.21 18:04:03:195] EVENT,set statustext from 38 to Idle. {26} [4739]
+[2020.03.21 18:04:03:196] EVENT,NOTIFICATION_XRSS,STATUS,-1,Idle. {26} [4739]
+[2020.03.21 18:04:03:491] EVENT,exec command 5 line: 1 params:  registerbuttonclick  elapsed 322 [mt: 48033] {36} [4739]
+[2020.03.21 18:04:03:492] EVENT,creating reg endpoint because registerbuttonclick [mt: 48033] {36} [4739]
+[2020.03.21 18:04:03:493] EVENT,reg state changed from [not needed] to [failed13] (0) from 39 () {36} [4739]
+[2020.03.21 18:04:03:494] EVENT,Connecting...
+[2020.03.21 18:04:03:734] EVENT,init tags from: 4g2761376023453966971m to: 5p8714506837160874406h branch: 3k8717033019967722321u [ep: 0 2e1543164623169248825k58163rmwp Init 48033] {36} [4739]
+[2020.03.21 18:04:03:735] EVENT,check ip for sipgate.de from 40 {36} [4739]
+[2020.03.21 18:04:03:736] EVENT,check ip for sipgate.de from 41 {36} [4739]
+[2020.03.21 18:04:03:736] EVENT, set called a to testivr3 [ep: 0 2e1543164623169248825k58163rmwp Init 48033] {36} [4739]
+[2020.03.21 18:04:03:737] EVENT, set called b to testivr3 [ep: 0 2e1543164623169248825k58163rmwp Init 48033] {36} [4739]
+[2020.03.21 18:04:03:737] EVENT, new endpoint created 2e1543164623169248825k58163rmwp [ep: 0 2e1543164623169248825k58163rmwp Init 48033] {36} [4739]
+[2020.03.21 18:04:03:738] EVENT,reg state change from Not initialized to Working [ep: 0 2e1543164623169248825k58163rmwp Registering 48033] {36} [4739]
+[2020.03.21 18:04:03:738] EVENT,ep send reg msg because registerbuttonclick [ep: 0 2e1543164623169248825k58163rmwp Registering 48033] {36} [4739]
+[2020.03.21 18:04:03:739] EVENT, set called a to testivr3 [ep: 0 2e1543164623169248825k58163rmwp Registering 48033] {36} [4739]
+[2020.03.21 18:04:03:740] EVENT, set called b to testivr3 [ep: 0 2e1543164623169248825k58163rmwp Registering 48033] {36} [4739]
+[2020.03.21 18:04:03:747] EVENT,cseq set2 to 3425 [ep: 0 2e1543164623169248825k58163rmwp Registering 48033] {36} [4739]
+[2020.03.21 18:04:03:748] EVENT,build uri rule 4 [ep: 0 2e1543164623169248825k58163rmwp Registering 48033] {36} [4739]
+[2020.03.21 18:04:03:749] EVENT,localaddress changed from  to 87.163.157.10:16778 [ep: 0 2e1543164623169248825k58163rmwp Registering 48033] {36} [4739]
+[2020.03.21 18:04:03:750] EVENT, build leg rule 16 [ep: 0 2e1543164623169248825k58163rmwp Registering 48033] {36} [4739]
+[2020.03.21 18:04:03:750] EVENT, build leg rule 18 [ep: 0 2e1543164623169248825k58163rmwp Registering 48033] {36} [4739]
+[2020.03.21 18:04:03:751] EVENT,sending to p 217.10.79.9 (772) [ep: 0 2e1543164623169248825k58163rmwp Registering 48033] {36} [4739]
+[2020.03.21 18:04:03:752] SEND,  to 217.10.79.9:5060 from port 16778
+REGISTER sip:sipgate.de SIP/2.0
+Via: SIP/2.0/UDP 87.163.157.10:16778;rport;branch=z9hG4bK-5p1879187844093956018r
+From: <sip:2913957e0@sipgate.de>;tag=4g2761376023453966971m
+To: <sip:2913957e0@sipgate.de>
+Call-ID: 2e1543164623169248825k58163rmwp
+CSeq: 3426 REGISTER
+Max-Forwards: 40
+Expires: 90
+X-SReason: registerbuttonclick
+Contact: <sip:2913957e0@87.163.157.10:16778>
+X-Webdomain: C:
+X-LS: 0
+X-UT: j
+X-MNAT: 3
+User-Agent: MizuJVoIP/8.0.20031
+X-FinalUA: JVoIP
+X-DeviceID: Z1Qavigg
+Organization: JVoIP
+Supported: replaces
+Allow: ACK,PRACK,BYE,CANCEL,INVITE,UPDATE,MESSAGE,INFO,OPTIONS,SUBSCRIBE,NOTIFY,REFER
+Allow-Events: presence,refer,telephone-event,keep-alive,dialog
+Accept: application/sdp,application/dtmf-relay,text/plain
+Content-Length: 0
+
+ [mt: 48033] {36} [4739]
+[2020.03.21 18:04:03:760] EVENT,reg state changed from [failed13] to [working unknown] (0) from 25 {36} [4739]
+[2020.03.21 18:04:03:761] EVENT,NOTIFICATION_XRSS,STATUS,0,Registering,testivr3,2913957e0,1,testivr3,[2e1543164623169248825k58163rmwp],1,4,0,0,0,0,0, {36} [4739]
+[2020.03.21 18:04:03:761] EVENT,STATUS,0,Registering,testivr3,2913957e0,1,testivr3,[2e1543164623169248825k58163rmwp],1,4,0,0,0,0,0, [mt: 48033] {36} [4739]
+[2020.03.21 18:04:03:785] EVENT,set statustext from 15 to Registering... {26} [4739]
+[2020.03.21 18:04:03:788] EVENT,NOTIFICATION_XRSS,STATUS,-1,Registering... {26} [4739]
+[2020.03.21 18:04:03:789] EVENT,udp packet 1 received to signaling port 16778 from 217.10.79.9:5060. length is 443 [udp localport: 16778 since: 1 ok] {38} [4739]
+[2020.03.21 18:04:03:790] EVENT, udp start rec from 217.10.79.9:5060 (443) [udp localport: 16778 since: 1 ok] {38} [4739]
+[2020.03.21 18:04:03:791] REC,217.10.79.9:5060 on port 16778
+SIP/2.0 401 Unauthorized
+Via: SIP/2.0/UDP 87.163.157.10:16778;received=87.163.157.10;rport=16778;branch=z9hG4bK-5p1879187844093956018r
+From: <sip:2913957e0@sipgate.de>;tag=4g2761376023453966971m
+To: <sip:2913957e0@sipgate.de>;tag=ca40b14695a455acdff6b4fb6f6d0a8e.f299
+Call-ID: 2e1543164623169248825k58163rmwp
+CSeq: 3426 REGISTER
+WWW-Authenticate: Digest realm="sipgate.de", nonce="XnZYQF52VxTVREzMyMydKe4vfH9rPX8m"
+Content-Length: 0
+
+ [mt: 48033] {38} [4739]
+[2020.03.21 18:04:03:795] EVENT,existing ep found for message 2e1543164623169248825k58163rmwp [mt: 48033] {38} [4739]
+[2020.03.21 18:04:03:796] EVENT,cseq set1 to 3426 [ep: 0 2e1543164623169248825k58163rmwp Registering 48033] {38} [4739]
+[2020.03.21 18:04:03:797] EVENT,set dialog_from 1 to: <sip:2913957e0@sipgate.de>;tag=4g2761376023453966971m    (dialog_to is: ) [ep: 0 2e1543164623169248825k58163rmwp Registering 48033] {38} [4739]
+[2020.03.21 18:04:03:798] EVENT,set fromtag 1 to: 4g2761376023453966971m [ep: 0 2e1543164623169248825k58163rmwp Registering 48033] {38} [4739]
+[2020.03.21 18:04:03:798] EVENT,set dialog_to 1 to: <sip:2913957e0@sipgate.de>;tag=ca40b14695a455acdff6b4fb6f6d0a8e.f299    (dialog_from is: <sip:2913957e0@sipgate.de>;tag=4g2761376023453966971m) [ep: 0 2e1543164623169248825k58163rmwp Registering 48033] {38} [4739]
+[2020.03.21 18:04:03:799] EVENT,set totag 1 to: ca40b14695a455acdff6b4fb6f6d0a8e.f299 [ep: 0 2e1543164623169248825k58163rmwp Registering 48033] {38} [4739]
+[2020.03.21 18:04:03:799] EVENT,resend last request with auth [ep: 0 2e1543164623169248825k58163rmwp Registering 48033] {38} [4739]
+[2020.03.21 18:04:03:800] EVENT,build uri rule 4 [ep: 0 2e1543164623169248825k58163rmwp Registering 48033] {38} [4739]
+[2020.03.21 18:04:03:800] EVENT, build leg rule 16 [ep: 0 2e1543164623169248825k58163rmwp Registering 48033] {38} [4739]
+[2020.03.21 18:04:03:807] EVENT, build leg rule 18 [ep: 0 2e1543164623169248825k58163rmwp Registering 48033] {38} [4739]
+[2020.03.21 18:04:03:809] EVENT,auth after pwd parameterA 2913957e0:sipgate.de:AT9RRjf7Q4Bx 28e76aecd2f9eaa1279b7a6c5a0e3dd9 sip:sipgate.de 1 [ep: 0 2e1543164623169248825k58163rmwp Registering 48033] {38} [4739]
+[2020.03.21 18:04:03:811] EVENT, auth params: m1str=28e76aecd2f9eaa1279b7a6c5a0e3dd9,auth_nonce=XnZYQF52VxTVREzMyMydKe4vfH9rPX8m,username=2913957e0,auth_realm=sipgate.de,method=REGISTER,uri=sip:sipgate.de [ep: 0 2e1543164623169248825k58163rmwp Registering 48033] {38} [4739]
+[2020.03.21 18:04:03:812] EVENT,sending to p 217.10.79.9 (874) [ep: 0 2e1543164623169248825k58163rmwp Registering 48033] {38} [4739]
+[2020.03.21 18:04:03:813] SEND,  to 217.10.79.9:5060 from port 16778
+REGISTER sip:sipgate.de SIP/2.0
+Via: SIP/2.0/UDP 87.163.157.10:16778;rport;branch=z9hG4bK-5p8218781989980500200r
+From: <sip:2913957e0@sipgate.de>;tag=4g2761376023453966971m
+To: <sip:2913957e0@sipgate.de>
+Call-ID: 2e1543164623169248825k58163rmwp
+CSeq: 3427 REGISTER
+Max-Forwards: 40
+Expires: 90
+Authorization: Digest username="2913957e0",realm="sipgate.de",nonce="XnZYQF52VxTVREzMyMydKe4vfH9rPX8m",uri="sip:sipgate.de",response="d91e7a0fc175c7827ec4dcd355c93214",algorithm=MD5
+Contact: <sip:2913957e0@87.163.157.10:16778>
+X-Webdomain: C:
+X-LS: 0
+X-UT: j
+X-MNAT: 3
+User-Agent: MizuJVoIP/8.0.20031
+X-FinalUA: JVoIP
+X-DeviceID: Z1Qavigg
+Organization: JVoIP
+Supported: replaces
+Allow: ACK,PRACK,BYE,CANCEL,INVITE,UPDATE,MESSAGE,INFO,OPTIONS,SUBSCRIBE,NOTIFY,REFER
+Accept: application/sdp,application/dtmf-relay,text/plain
+X-Country: DE
+Content-Length: 0
+
+ [mt: 48033] {38} [4739]
+[2020.03.21 18:04:03:833] EVENT,udp packet 2 received to signaling port 16778 from 217.10.79.9:5060. length is 403 [udp localport: 16778 since: 1 ok] {38} [4739]
+[2020.03.21 18:04:03:835] REC,217.10.79.9:5060 on port 16778
+SIP/2.0 200 OK
+Via: SIP/2.0/UDP 87.163.157.10:16778;received=87.163.157.10;rport=16778;branch=z9hG4bK-5p8218781989980500200r
+From: <sip:2913957e0@sipgate.de>;tag=4g2761376023453966971m
+To: <sip:2913957e0@sipgate.de>;tag=ca40b14695a455acdff6b4fb6f6d0a8e.f299
+Call-ID: 2e1543164623169248825k58163rmwp
+CSeq: 3427 REGISTER
+Contact: <sip:2913957e0@87.163.157.10:16778>;expires=90
+Content-Length: 0
+
+ [mt: 48033] {38} [4739]
+[2020.03.21 18:04:03:836] EVENT,existing ep found for message 2e1543164623169248825k58163rmwp [mt: 48033] {38} [4739]
+[2020.03.21 18:04:03:836] EVENT,cseq set1 to 3427 [ep: 0 2e1543164623169248825k58163rmwp Registering 48033] {38} [4739]
+[2020.03.21 18:04:03:837] EVENT,set dialog_to 1 to: <sip:2913957e0@sipgate.de>;tag=ca40b14695a455acdff6b4fb6f6d0a8e.f299    (dialog_from is: <sip:2913957e0@sipgate.de>;tag=4g2761376023453966971m) [ep: 0 2e1543164623169248825k58163rmwp Registering 48033] {38} [4739]
+[2020.03.21 18:04:03:838] EVENT,set totag 1 to: ca40b14695a455acdff6b4fb6f6d0a8e.f299 [ep: 0 2e1543164623169248825k58163rmwp Registering 48033] {38} [4739]
+[2020.03.21 18:04:03:839] EVENT,reg state change from Not initialized to Success [ep: 0 2e1543164623169248825k58163rmwp Registering 48033] {38} [4739]
+[2020.03.21 18:04:03:840] EVENT,reg state changed from [working unknown] to [yes] (1) from 7 {38} [4739]
+[2020.03.21 18:04:03:841] EVENT,authenticated successfully 1 2 [ep: 0 2e1543164623169248825k58163rmwp Registering 48033] {38} [4739]
+[2020.03.21 18:04:03:842] EVENT,Authenticated successfully.
+[2020.03.21 18:04:03:848] EVENT,initial register procedure fully completeted with localaddress: 87.163.157.10:0 [ep: 0 2e1543164623169248825k58163rmwp Registering 48033] {38} [4739]
+[2020.03.21 18:04:03:850] EVENT,on first full succ register from ep [ep: 0 2e1543164623169248825k58163rmwp Registering 48033] {38} [4739]
+[2020.03.21 18:04:03:851] EVENT,NOTIFICATION_XRSS,STATUS,0,Registered,testivr3,2913957e0,1,testivr3,[2e1543164623169248825k58163rmwp],1,2,0,0,0,0,0, {36} [4739]
+[2020.03.21 18:04:03:852] EVENT,STATUS,0,Registered,testivr3,2913957e0,1,testivr3,[2e1543164623169248825k58163rmwp],1,2,0,0,0,0,0, [mt: 48033] {36} [4739]
+[2020.03.21 18:04:03:853] EVENT,on first full succ register from maint [mt: 48033] {36} [4739]
+[2020.03.21 18:04:03:888] EVENT,set statustext from 21 to Registered. {26} [4739]
+[2020.03.21 18:04:03:890] EVENT,NOTIFICATION_XRSS,STATUS,-1,Registered. {26} [4739]
+[2020.03.21 18:04:06:908] EVENT,save settings wpb [wpmain] {26} [4739]
+[2020.03.21 18:04:06:912] EVENT,save settings wp [wpmain] {26} [4739]
+[2020.03.21 18:04:06:915] EVENT,write file C:\TakePart Projekt\Registration\demo(1)\demo\mwphonedata\u88wpcfg.dat (204) {26} [4739]
+[2020.03.21 18:04:06:919] EVENT,write file C:\TakePart Projekt\Registration\demo(1)\demo\mwphonedata\u88wpcfgex.dat (2751) {26} [4739]
+[2020.03.21 18:04:06:923] EVENT,config saved 204 [wpmain] {26} [4739]
+[2020.03.21 18:04:16:585] EVENT,reg state remains [yes] (1) from 12 {26} [4739]
+[2020.03.21 18:04:16:585] EVENT, in idle: no, isonline: yes,  registered: yes 2,  speaking: no,  mem: 27-0 MB, cpu: 0.0%, avg: 0.0%, threads: 11 [wpmain] {26} [4739]
+[2020.03.21 18:04:18:095] EVENT,TLSCert_Check {36} [4739]
+[2020.03.21 18:04:18:096] EVENT,TLSCert_Check from [periodically] action [download not needed] because [no tls needed] {36} [4739]
+[2020.03.21 18:04:21:479] EVENT,sending to p 217.10.79.9 (4) [ep: 0 2e1543164623169248825k58163rmwp Registering 48033] {36} [4739]
+[2020.03.21 18:04:31:606] EVENT, in idle: no, isonline: yes,  registered: yes 2,  speaking: no,  mem: 27-0 MB, cpu: 0.0%, avg: 0.0%, threads: 11 [wpmain] {26} [4739]
+[2020.03.21 18:04:39:179] EVENT,sending to p 217.10.79.9 (4) [ep: 0 2e1543164623169248825k58163rmwp Registering 48033] {36} [4739]
+[2020.03.21 18:04:45:168] EVENT, send reregister (at 41 sec with 0 delay) [ep: 0 2e1543164623169248825k58163rmwp Registering 48033] {36} [4739]
+[2020.03.21 18:04:45:169] EVENT,build uri rule 4 [ep: 0 2e1543164623169248825k58163rmwp Registering 48033] {36} [4739]
+[2020.03.21 18:04:45:170] EVENT, build leg rule 16 [ep: 0 2e1543164623169248825k58163rmwp Registering 48033] {36} [4739]
+[2020.03.21 18:04:45:171] EVENT, build leg rule 18 [ep: 0 2e1543164623169248825k58163rmwp Registering 48033] {36} [4739]
+[2020.03.21 18:04:45:172] EVENT,sending to p 217.10.79.9 (882) [ep: 0 2e1543164623169248825k58163rmwp Registering 48033] {36} [4739]
+[2020.03.21 18:04:45:173] SEND,  to 217.10.79.9:5060 from port 16778
+REGISTER sip:sipgate.de SIP/2.0
+Via: SIP/2.0/UDP 87.163.157.10:16778;rport;branch=z9hG4bK-5p6979177957220870760r
+From: <sip:2913957e0@sipgate.de>;tag=4g2761376023453966971m
+To: <sip:2913957e0@sipgate.de>
+Call-ID: 2e1543164623169248825k58163rmwp
+CSeq: 3428 REGISTER
+Max-Forwards: 40
+Expires: 90
+X-SReason: reregister
+Authorization: Digest username="2913957e0",realm="sipgate.de",nonce="XnZYQF52VxTVREzMyMydKe4vfH9rPX8m",uri="sip:sipgate.de",response="d91e7a0fc175c7827ec4dcd355c93214",algorithm=MD5
+Contact: <sip:2913957e0@87.163.157.10:16778>
+X-Webdomain: C:
+X-LS: 0
+X-UT: j
+X-MNAT: 3
+User-Agent: MizuJVoIP/8.0.20031
+X-FinalUA: JVoIP
+X-DeviceID: Z1Qavigg
+Organization: JVoIP
+Supported: replaces
+Allow: ACK,PRACK,BYE,CANCEL,INVITE,UPDATE,MESSAGE,INFO,OPTIONS,SUBSCRIBE,NOTIFY,REFER
+Accept: application/sdp,application/dtmf-relay,text/plain
+Content-Length: 0
+
+ [mt: 48033] {36} [4739]
+[2020.03.21 18:04:45:208] EVENT,udp packet 3 received to signaling port 16778 from 217.10.79.9:5060. length is 403 [udp localport: 16778 since: 42 ok] {38} [4739]
+[2020.03.21 18:04:45:208] REC,217.10.79.9:5060 on port 16778
+SIP/2.0 200 OK
+Via: SIP/2.0/UDP 87.163.157.10:16778;received=87.163.157.10;rport=16778;branch=z9hG4bK-5p6979177957220870760r
+From: <sip:2913957e0@sipgate.de>;tag=4g2761376023453966971m
+To: <sip:2913957e0@sipgate.de>;tag=ca40b14695a455acdff6b4fb6f6d0a8e.f299
+Call-ID: 2e1543164623169248825k58163rmwp
+CSeq: 3428 REGISTER
+Contact: <sip:2913957e0@87.163.157.10:16778>;expires=90
+Content-Length: 0
+
+ [mt: 48033] {38} [4739]
+[2020.03.21 18:04:45:209] EVENT,existing ep found for message 2e1543164623169248825k58163rmwp [mt: 48033] {38} [4739]
+[2020.03.21 18:04:45:210] EVENT,cseq set1 to 3428 [ep: 0 2e1543164623169248825k58163rmwp Registering 48033] {38} [4739]
+[2020.03.21 18:04:45:210] EVENT,set dialog_to 1 to: <sip:2913957e0@sipgate.de>;tag=ca40b14695a455acdff6b4fb6f6d0a8e.f299    (dialog_from is: <sip:2913957e0@sipgate.de>;tag=4g2761376023453966971m) [ep: 0 2e1543164623169248825k58163rmwp Registering 48033] {38} [4739]
+[2020.03.21 18:04:45:211] EVENT,set totag 1 to: ca40b14695a455acdff6b4fb6f6d0a8e.f299 [ep: 0 2e1543164623169248825k58163rmwp Registering 48033] {38} [4739]
+[2020.03.21 18:04:45:212] EVENT,reg state remains [yes] (1) from 15 {38} [4739]
+[2020.03.21 18:04:45:213] EVENT,reg state change from Not initialized to Success [ep: 0 2e1543164623169248825k58163rmwp Registering 48033] {38} [4739]
+[2020.03.21 18:04:45:220] EVENT,reg state remains [yes] (1) from 7 {36} [4739]
+[2020.03.21 18:04:45:221] EVENT,NOTIFICATION_XRSS,STATUS,0,Registered,testivr3,2913957e0,1,testivr3,[2e1543164623169248825k58163rmwp],1,2,0,0,0,0,0, {36} [4739]
+[2020.03.21 18:04:45:222] EVENT,STATUS,0,Registered,testivr3,2913957e0,1,testivr3,[2e1543164623169248825k58163rmwp],1,2,0,0,0,0,0, [mt: 48033] {36} [4739]
+[2020.03.21 18:04:48:787] EVENT,apicall API_Call -1,testivr3 [wpmain] {1} [4739]
+[2020.03.21 18:04:48:788] EVENT, switching idle state to false (from: 21) {1} [4739]
+[2020.03.21 18:04:48:821] EVENT,apicall API_Call_Now -1,testivr3 [wpmain] {26} [4739]
+[2020.03.21 18:04:48:822] EVENT,NOTIFICATION_XRSS,STATUS,-1,Starting call to testivr3 {26} [4739]
+[2020.03.21 18:04:48:823] EVENT,direct call URI parsing is not enabled c testivr3 [wpmain] {26} [4739]
+[2020.03.21 18:04:48:823] EVENT, set called ext i to testivr3 [wpmain] {26} [4739]
+[2020.03.21 18:04:48:824] EVENT,first routepath set to sipgate.de sipgate.de 5060 as user 2913957e0 [wpmain] {26} [4739]
+[2020.03.21 18:04:48:824] EVENT,save settings wpb [wpmain] {26} [4739]
+[2020.03.21 18:04:48:825] EVENT,save settings wp [wpmain] {26} [4739]
+[2020.03.21 18:04:48:826] EVENT,write file C:\TakePart Projekt\Registration\demo(1)\demo\mwphonedata\u88wpcfgex.dat (2751) {26} [4739]
+[2020.03.21 18:04:48:828] EVENT,config saved 204 [wpmain] {26} [4739]
+[2020.03.21 18:04:48:830] EVENT,NOTIFICATION_XRSS,STATUS,-1,Call {26} [4739]
+[2020.03.21 18:04:48:831] EVENT,exec command 0 line: 1 params: testivr3   elapsed 1 [mt: 48033] {36} [4739]
+[2020.03.21 18:04:48:832] EVENT,init call [mt: 48033] {36} [4739]
+[2020.03.21 18:04:48:832] EVENT, returned free line is 1 [mt: 48033] {36} [4739]
+[2020.03.21 18:04:48:833] EVENT,OnFirstCall -1 3 true [mt: 48033] {36} [4739]
+[2020.03.21 18:04:48:835] EVENT,init tags from: 8g172477290785660872m to: 9p2583429650722102058h branch: 7k7328373654344747104u [ep: 0 6e1417719898039330449k58164rmwp Init 48033] {36} [4739]
+[2020.03.21 18:04:48:836] EVENT,check ip for sipgate.de from 40 {36} [4739]
+[2020.03.21 18:04:48:842] EVENT,check ip for sipgate.de from 41 {36} [4739]
+[2020.03.21 18:04:48:843] EVENT, set called a to testivr3 [ep: 0 6e1417719898039330449k58164rmwp Init 48033] {36} [4739]
+[2020.03.21 18:04:48:847] EVENT, set called b to testivr3 [ep: 0 6e1417719898039330449k58164rmwp Init 48033] {36} [4739]
+[2020.03.21 18:04:48:853] EVENT, new endpoint created 6e1417719898039330449k58164rmwp [ep: 0 6e1417719898039330449k58164rmwp Init 48033] {36} [4739]
+[2020.03.21 18:04:48:855] EVENT, set called x to testivr3 [ep: 0 6e1417719898039330449k58164rmwp Setup 48033] {36} [4739]
+[2020.03.21 18:04:48:856] EVENT, set called b to testivr3 [ep: 0 6e1417719898039330449k58164rmwp Setup 48033] {36} [4739]
+[2020.03.21 18:04:48:858] EVENT,direct call URI parsing is not enabled a testivr3 [ep: 0 6e1417719898039330449k58164rmwp Setup 48033] {36} [4739]
+[2020.03.21 18:04:48:858] EVENT, set called h to testivr3 [ep: 1 6e1417719898039330449k58164rmwp Setup 48033] {36} [4739]
+[2020.03.21 18:04:48:859] EVENT,ep call [ep: 1 6e1417719898039330449k58164rmwp Setup 48033] {36} [4739]
+[2020.03.21 18:04:48:860] EVENT,      get parameter (from 10014) urtpstuntestivr3=1 {36} [4739]
+[2020.03.21 18:04:48:860] EVENT,create rtp outgoing call early [ep: 1 6e1417719898039330449k58164rmwp Setup 48033] {36} [4739]
+[2020.03.21 18:04:48:861] EVENT,creating new socket A {36} [4739]
+[2020.03.21 18:04:48:863] EVENT,loading lastrtpportsaved 16780+0 [ep: 1 6e1417719898039330449k58164rmwp Setup 48033] {36} [4739]
+[2020.03.21 18:04:48:870] EVENT,udp init [udp localport: 0 since: 0 ok] {36} [4739]
+[2020.03.21 18:04:48:870] EVENT,udp bind to port 16780 (audio) [udp localport: 0 since: 0 ok] {36} [4739]
+[2020.03.21 18:04:48:872] EVENT, stun request non tunnel [udp localport: 16780 since: 0 ok] {36} [4739]
+[2020.03.21 18:04:48:874] EVENT,new call might be started from 1 [mt: 48033] {26} [4739]
+[2020.03.21 18:04:48:875] EVENT,set statustext from 25 to Call Initiated {26} [4739]
+[2020.03.21 18:04:48:876] EVENT,NOTIFICATION_XRSS,STATUS,-1,Call Initiated {26} [4739]
+[2020.03.21 18:04:48:880] EVENT,check mep call state ex [mt: 48033] {36} [4739]
+[2020.03.21 18:04:48:882] EVENT, OnCall 1 false [ep: 1 6e1417719898039330449k58164rmwp Setup 48033] {36} [4739]
+[2020.03.21 18:04:48:883] EVENT,      get parameter (from 10014) stat_rtpstunfailcount=0 {36} [4739]
+[2020.03.21 18:04:48:884] EVENT,udp packet 1 received to audio port 16780 from 148.251.28.180:44447. length is 40 [udp localport: 16780 since: 0 ok] {39} [4739]
+[2020.03.21 18:04:48:885] EVENT, rtp stun first answer 87.163.157.10:16780 [udp localport: 16780 since: 0 ok] {39} [4739]
+[2020.03.21 18:04:48:897] EVENT,ep waiting for stun answer [ep: 1 6e1417719898039330449k58164rmwp Setup 48033] {36} [4739]
+[2020.03.21 18:04:49:381] EVENT,      get parameter (from 10014) stat_rtpstunfailcount=0 {36} [4739]
+[2020.03.21 18:04:49:382] EVENT, set called b to testivr3 [ep: 1 6e1417719898039330449k58164rmwp Setup 48033] {36} [4739]
+[2020.03.21 18:04:49:383] EVENT,direct call URI parsing is not enabled a testivr3 [ep: 1 6e1417719898039330449k58164rmwp Setup 48033] {36} [4739]
+[2020.03.21 18:04:49:384] EVENT,cseq set2 to 23387 [ep: 1 6e1417719898039330449k58164rmwp Setup 48033] {36} [4739]
+[2020.03.21 18:04:49:385] EVENT,build uri rule 6677 [ep: 1 6e1417719898039330449k58164rmwp Setup 48033] {36} [4739]
+[2020.03.21 18:04:49:386] EVENT,localaddress changed from  to 87.163.157.10:16778 [ep: 1 6e1417719898039330449k58164rmwp Setup 48033] {36} [4739]
+[2020.03.21 18:04:49:387] EVENT, build leg rule 16 [ep: 1 6e1417719898039330449k58164rmwp Setup 48033] {36} [4739]
+[2020.03.21 18:04:49:388] EVENT, build leg rule 1901a  (x) [ep: 1 6e1417719898039330449k58164rmwp Setup 48033] {36} [4739]
+[2020.03.21 18:04:49:388] EVENT,sending to p 217.10.79.9 (1190) [ep: 1 6e1417719898039330449k58164rmwp Setup 48033] {36} [4739]
+[2020.03.21 18:04:49:389] SEND,  to 217.10.79.9:5060 from port 16778
+INVITE sip:testivr3@sipgate.de SIP/2.0
+Via: SIP/2.0/UDP 87.163.157.10:16778;rport;branch=z9hG4bK-9p8857925070964531314r
+From: <sip:2913957e0@sipgate.de>;tag=8g172477290785660872m
+To: <sip:testivr3@sipgate.de>
+Call-ID: 6e1417719898039330449k58164rmwp
+CSeq: 23388 INVITE
+Max-Forwards: 40
+Contact: <sip:2913957e0@87.163.157.10:16778>
+X-Webdomain: C:
+X-LS: 0
+X-UT: j
+X-MNAT: 3
+X-PLine: 1
+User-Agent: MizuJVoIP/8.0.20031
+X-FinalUA: JVoIP
+X-DeviceID: Z1Qavigg
+Organization: JVoIP
+X-CDDT: 682580,529934,16780,10.242.6.159,192.168.178.65,87.163.157.10
+X-XMSG: srp:17212,
+Supported: replaces
+Allow: ACK,PRACK,BYE,CANCEL,INVITE,UPDATE,MESSAGE,INFO,OPTIONS,SUBSCRIBE,NOTIFY,REFER
+Allow-Events: presence,refer,telephone-event,keep-alive,dialog
+Accept: application/sdp,application/dtmf-relay,text/plain
+Content-Type: application/sdp
+Content-Length: 323
+
+v=0
+o=2913957e0 482 459 IN IP4 87.163.157.10
+s=jvoip
+c=IN IP4 87.163.157.10
+t=0 0
+m=audio 16780 RTP/AVP 0 18 3 8 101
+a=rtpmap:0 PCMU/8000
+a=rtpmap:18 G729/8000
+a=fmtp:18 annexb=no
+a=rtpmap:3 GSM/8000
+a=rtpmap:8 PCMA/8000
+a=rtpmap:101 telephone-event/8000
+a=fmtp:101 0-16
+a=sendrecv
+a=silenceSupp:off - - - -
+ [mt: 48033] {36} [4739]
+[2020.03.21 18:04:49:391] EVENT,switching state from Setup to Routed from 22 [ep: 1 6e1417719898039330449k58164rmwp Calling 48033] {36} [4739]
+[2020.03.21 18:04:49:393] EVENT,NOTIFICATION_XRSS,STATUS,1,CallSetup,testivr3,2913957e0,1,testivr3,[6e1417719898039330449k58164rmwp],1,2,1,0,0,0,0,,0,0,0,100, {36} [4739]
+[2020.03.21 18:04:49:394] EVENT,set isincall to true from 15 {36} [4739]
+[2020.03.21 18:04:49:395] EVENT,set deleteat 444 to 120000 [ep: 1 6e1417719898039330449k58164rmwp Calling 48033] {36} [4739]
+[2020.03.21 18:04:49:395] EVENT,call begin maintenance [ep: 1 6e1417719898039330449k58164rmwp Calling 48033] {36} [4739]
+[2020.03.21 18:04:49:398] EVENT,NOTIFICATION_XRSS,STATUS,1,Routed,testivr3,2913957e0,1,testivr3,[6e1417719898039330449k58164rmwp],1,2,1,0,0,0,0,,0,0,0,100, {36} [4739]
+[2020.03.21 18:04:49:399] EVENT,STATUS,1,Routed,testivr3,2913957e0,1,testivr3,[6e1417719898039330449k58164rmwp],1,2,1,0,0,0,0,,0,0,0,100, [mt: 48033] {36} [4739]
+[2020.03.21 18:04:49:426] EVENT,udp packet 4 received to signaling port 16778 from 217.10.79.9:5060. length is 459 [udp localport: 16778 since: 46 ok] {38} [4739]
+[2020.03.21 18:04:49:428] REC,217.10.79.9:5060 on port 16778
+SIP/2.0 407 Proxy Authentication Required
+Via: SIP/2.0/UDP 87.163.157.10:16778;received=87.163.157.10;rport=16778;branch=z9hG4bK-9p8857925070964531314r
+From: <sip:2913957e0@sipgate.de>;tag=8g172477290785660872m
+To: <sip:testivr3@sipgate.de>;tag=c63713a666d5644779294882ed89253a.f299
+Call-ID: 6e1417719898039330449k58164rmwp
+CSeq: 23388 INVITE
+Proxy-Authenticate: Digest realm="sipgate.de", nonce="XnZYbV52V0GszfEa7UiX+P4z1wjwaZmo"
+Content-Length: 0
+
+ [mt: 48033] {38} [4739]
+[2020.03.21 18:04:49:433] EVENT,existing ep found for message 6e1417719898039330449k58164rmwp [mt: 48033] {38} [4739]
+[2020.03.21 18:04:49:435] EVENT,cseq set1 to 23388 [ep: 1 6e1417719898039330449k58164rmwp Calling 48033] {38} [4739]
+[2020.03.21 18:04:49:438] EVENT,set dialog_from 1 to: <sip:2913957e0@sipgate.de>;tag=8g172477290785660872m    (dialog_to is: ) [ep: 1 6e1417719898039330449k58164rmwp Calling 48033] {38} [4739]
+[2020.03.21 18:04:49:440] EVENT,set fromtag 1 to: 8g172477290785660872m [ep: 1 6e1417719898039330449k58164rmwp Calling 48033] {38} [4739]
+[2020.03.21 18:04:49:442] EVENT,set dialog_to 1 to: <sip:testivr3@sipgate.de>;tag=c63713a666d5644779294882ed89253a.f299    (dialog_from is: <sip:2913957e0@sipgate.de>;tag=8g172477290785660872m) [ep: 1 6e1417719898039330449k58164rmwp Calling 48033] {38} [4739]
+[2020.03.21 18:04:49:444] EVENT,set totag 1 to: c63713a666d5644779294882ed89253a.f299 [ep: 1 6e1417719898039330449k58164rmwp Calling 48033] {38} [4739]
+[2020.03.21 18:04:49:445] EVENT,build uri rule 6677 [ep: 1 6e1417719898039330449k58164rmwp Calling 48033] {38} [4739]
+[2020.03.21 18:04:49:446] EVENT, build leg rule 13 [ep: 1 6e1417719898039330449k58164rmwp Calling 48033] {38} [4739]
+[2020.03.21 18:04:49:447] EVENT, build leg rule 132 [ep: 1 6e1417719898039330449k58164rmwp Calling 48033] {38} [4739]
+[2020.03.21 18:04:49:448] EVENT,sending to p 217.10.79.9 (502) [ep: 1 6e1417719898039330449k58164rmwp Calling 48033] {38} [4739]
+[2020.03.21 18:04:49:449] SEND,  to 217.10.79.9:5060 from port 16778
+ACK sip:testivr3@sipgate.de SIP/2.0
+Via: SIP/2.0/UDP 87.163.157.10:16778;rport;branch=z9hG4bK-9p8857925070964531314r
+From: <sip:2913957e0@sipgate.de>;tag=8g172477290785660872m
+To: <sip:testivr3@sipgate.de>;tag=c63713a666d5644779294882ed89253a.f299
+Call-ID: 6e1417719898039330449k58164rmwp
+CSeq: 23388 ACK
+Max-Forwards: 40
+X-Webdomain: C:
+X-LS: 0
+X-UT: j
+X-MNAT: 3
+X-PLine: 1
+User-Agent: MizuJVoIP/8.0.20031
+X-FinalUA: JVoIP
+X-DeviceID: Z1Qavigg
+Organization: JVoIP
+Content-Length: 0
+
+ [mt: 48033] {38} [4739]
+[2020.03.21 18:04:49:450] EVENT,resend last request with auth [ep: 1 6e1417719898039330449k58164rmwp Calling 48033] {38} [4739]
+[2020.03.21 18:04:49:451] EVENT,build uri rule 6677 [ep: 1 6e1417719898039330449k58164rmwp Calling 48033] {38} [4739]
+[2020.03.21 18:04:49:452] EVENT, build leg rule 16 [ep: 1 6e1417719898039330449k58164rmwp Calling 48033] {38} [4739]
+[2020.03.21 18:04:49:454] EVENT, build leg rule 1901a  (x) [ep: 1 6e1417719898039330449k58164rmwp Calling 48033] {38} [4739]
+[2020.03.21 18:04:49:456] EVENT,auth after pwd parameterA 2913957e0:sipgate.de:AT9RRjf7Q4Bx 28e76aecd2f9eaa1279b7a6c5a0e3dd9 sip:testivr3@sipgate.de 1 [ep: 1 6e1417719898039330449k58164rmwp Calling 48033] {38} [4739]
+[2020.03.21 18:04:49:457] EVENT, auth params: m1str=28e76aecd2f9eaa1279b7a6c5a0e3dd9,auth_nonce=XnZYbV52V0GszfEa7UiX+P4z1wjwaZmo,username=2913957e0,auth_realm=sipgate.de,method=INVITE,uri=sip:testivr3@sipgate.de [ep: 1 6e1417719898039330449k58164rmwp Calling 48033] {38} [4739]
+[2020.03.21 18:04:49:458] EVENT,sending to p 217.10.79.9 (1297) [ep: 1 6e1417719898039330449k58164rmwp Calling 48033] {38} [4739]
+[2020.03.21 18:04:49:459] SEND,  to 217.10.79.9:5060 from port 16778
+INVITE sip:testivr3@sipgate.de SIP/2.0
+Via: SIP/2.0/UDP 87.163.157.10:16778;rport;branch=z9hG4bK-9p6111214823301641345r
+From: <sip:2913957e0@sipgate.de>;tag=8g172477290785660872m
+To: <sip:testivr3@sipgate.de>
+Call-ID: 6e1417719898039330449k58164rmwp
+CSeq: 23389 INVITE
+Max-Forwards: 40
+Proxy-Authorization: Digest username="2913957e0",realm="sipgate.de",nonce="XnZYbV52V0GszfEa7UiX+P4z1wjwaZmo",uri="sip:testivr3@sipgate.de",response="dfb68c69a49897615f2645faab6f7827",algorithm=MD5
+Contact: <sip:2913957e0@87.163.157.10:16778>
+X-Webdomain: C:
+X-LS: 0
+X-UT: j
+X-MNAT: 3
+X-PLine: 1
+User-Agent: MizuJVoIP/8.0.20031
+X-FinalUA: JVoIP
+X-DeviceID: Z1Qavigg
+Organization: JVoIP
+X-CDDT: 682580,529934,16780,10.242.6.159,192.168.178.65,87.163.157.10
+X-XMSG: srp:17212,
+Supported: replaces
+Allow: ACK,PRACK,BYE,CANCEL,INVITE,UPDATE,MESSAGE,INFO,OPTIONS,SUBSCRIBE,NOTIFY,REFER
+Accept: application/sdp,application/dtmf-relay,text/plain
+Content-Type: application/sdp
+Content-Length: 296
+
+v=0
+o=2913957e0 482 460 IN IP4 87.163.157.10
+s=jvoip
+c=IN IP4 87.163.157.10
+t=0 0
+m=audio 16780 RTP/AVP 0 18 3 8 101
+a=rtpmap:0 PCMU/8000
+a=rtpmap:18 G729/8000
+a=fmtp:18 annexb=no
+a=rtpmap:3 GSM/8000
+a=rtpmap:8 PCMA/8000
+a=rtpmap:101 telephone-event/8000
+a=fmtp:101 0-16
+a=sendrecv
+ [mt: 48033] {38} [4739]
+[2020.03.21 18:04:49:462] EVENT, check mep call state [mt: 48033] {26} [4739]
+[2020.03.21 18:04:49:469] EVENT,rtp recorded: 0, sent: 0, received: 0, playback: 0, transport: 0, idle: false, speaking: false (last ~10 second statistics) [wpmain] {26} [4739]
+[2020.03.21 18:04:49:475] EVENT,new call might be started from 1 [mt: 48033] {26} [4739]
+[2020.03.21 18:04:49:484] EVENT,udp packet 5 received to signaling port 16778 from 217.10.79.9:5060. length is 361 [udp localport: 16778 since: 46 ok] {38} [4739]
+[2020.03.21 18:04:49:485] REC,217.10.79.9:5060 on port 16778
+SIP/2.0 404 Not found (no match)
+Via: SIP/2.0/UDP 87.163.157.10:16778;received=87.163.157.10;rport=16778;branch=z9hG4bK-9p6111214823301641345r
+From: <sip:2913957e0@sipgate.de>;tag=8g172477290785660872m
+To: <sip:testivr3@sipgate.de>;tag=c63713a666d5644779294882ed89253a.f299
+Call-ID: 6e1417719898039330449k58164rmwp
+CSeq: 23389 INVITE
+Content-Length: 0
+
+ [mt: 48033] {38} [4739]
+[2020.03.21 18:04:49:486] EVENT,existing ep found for message 6e1417719898039330449k58164rmwp [mt: 48033] {38} [4739]
+[2020.03.21 18:04:49:487] EVENT,cseq set1 to 23389 [ep: 1 6e1417719898039330449k58164rmwp Calling 48033] {38} [4739]
+[2020.03.21 18:04:49:488] EVENT,set dialog_to 1 to: <sip:testivr3@sipgate.de>;tag=c63713a666d5644779294882ed89253a.f299    (dialog_from is: <sip:2913957e0@sipgate.de>;tag=8g172477290785660872m) [ep: 1 6e1417719898039330449k58164rmwp Calling 48033] {38} [4739]
+[2020.03.21 18:04:49:488] EVENT,set totag 1 to: c63713a666d5644779294882ed89253a.f299 [ep: 1 6e1417719898039330449k58164rmwp Calling 48033] {38} [4739]
+[2020.03.21 18:04:49:489] WARNING,call rejected: Not Found [ep: 1 6e1417719898039330449k58164rmwp Calling 48033] {38} [4739]
+[2020.03.21 18:04:49:490] EVENT,switching state from Routed to Finishing from 345 [ep: 1 6e1417719898039330449k58164rmwp Finished 48033] {38} [4739]
+[2020.03.21 18:04:49:491] EVENT,NOTIFICATION_XRSS,PRESENCE,testivr3,Open,Available {38} [4739]
+[2020.03.21 18:04:49:495] EVENT,NOTIFICATION_XRSS,STATUS,1,CallDisconnect,testivr3,2913957e0,1,testivr3,[6e1417719898039330449k58164rmwp],1,2,0,0,0,0,0, {38} [4739]
+[2020.03.21 18:04:49:498] EVENT,set isincall to false from 2 {38} [4739]
+[2020.03.21 18:04:49:500] EVENT, destroy rtp [ep: 1 6e1417719898039330449k58164rmwp Finished 48033] {38} [4739]
+[2020.03.21 18:04:49:501] EVENT,parking socket A {38} [4739]
+[2020.03.21 18:04:49:502] EVENT,set deleteat 444 to 120000 [ep: 1 6e1417719898039330449k58164rmwp Finished 48033] {38} [4739]
+[2020.03.21 18:04:49:503] EVENT,NOTIFICATION_XRSS,STATUS,1,Finishing,testivr3,2913957e0,1,testivr3,[6e1417719898039330449k58164rmwp],1,2,0,0,0,0,0, {36} [4739]
+[2020.03.21 18:04:49:504] EVENT,STATUS,1,Finishing,testivr3,2913957e0,1,testivr3,[6e1417719898039330449k58164rmwp],1,2,0,0,0,0,0, [mt: 48033] {36} [4739]
+[2020.03.21 18:04:49:505] EVENT, call details: 
+Line: 1 , Direction: outgoing
+Local Username: 2913957e0 , AuthUsername: 2913957e0
+Peer Username: testivr3 , Name: testivr3 Called: testivr3
+Server: sipgate.de  
+Connectime: 640 msec
+Duration: 0 msec
+Disc By: Remote , Reason: Not found (no match)
+AEC_SETT: 1, AEC_FULL: 2, AEC_FAST: 1, no, AEC_VOL: 1, AGC: 2, Denoise: 3
+Payload: 18 G729, pf: 2, network: fast  
+CPU: speed: 9000, load: 0.0, reccpuhigh: false, subshigh: 0, highdetected: no, meassured: 0 0, cores: 16, dbg:  
+
+ Opendevices: 0 0
+ [ep: 1 6e1417719898039330449k58164rmwp Finished 48033] {38} [4739]
+[2020.03.21 18:04:49:506] EVENT,NOTIFICATION_XRSS,CDR,1,testivr3,2913957e0,testivr3,sipgate.de,640,0,2,Not found (no match),[6e1417719898039330449k58164rmwp] {38} [4739]
+[2020.03.21 18:04:49:508] CDR,1,testivr3,2913957e0,testivr3,sipgate.de,640,0,2,Not found (no match) [ep: 1 6e1417719898039330449k58164rmwp Finished 48033] {38} [4739]
+[2020.03.21 18:04:49:508] EVENT,Call duration: 0 sec
+[2020.03.21 18:04:49:510] EVENT, stats: 
+
+Calls> callcount: 1, allcallcount: 7, allsucccallcount: 1, plgoodcalls: 0, subsnosucccall: -12
+RTP> rtppacketsent: 0, rtppacketrec: 0, rtppacketloss: 0, losspercent: 100, srv_rtppacketsent: -1, srv_rtppacketrec: -1, srv_rtppacketloss: -1, srv_rtppacketlosspercent: -1 [ep: 1 6e1417719898039330449k58164rmwp Finished 48033] {38} [4739]
+[2020.03.21 18:04:49:513] EVENT,build uri rule 6677 [ep: 1 6e1417719898039330449k58164rmwp Finished 48033] {38} [4739]
+[2020.03.21 18:04:49:515] EVENT, build leg rule 13 [ep: 1 6e1417719898039330449k58164rmwp Finished 48033] {38} [4739]
+[2020.03.21 18:04:49:516] EVENT, build leg rule 132 [ep: 1 6e1417719898039330449k58164rmwp Finished 48033] {38} [4739]
+[2020.03.21 18:04:49:517] EVENT,sending to p 217.10.79.9 (502) [ep: 1 6e1417719898039330449k58164rmwp Finished 48033] {38} [4739]
+[2020.03.21 18:04:49:518] SEND,  to 217.10.79.9:5060 from port 16778
+ACK sip:testivr3@sipgate.de SIP/2.0
+Via: SIP/2.0/UDP 87.163.157.10:16778;rport;branch=z9hG4bK-9p6111214823301641345r
+From: <sip:2913957e0@sipgate.de>;tag=8g172477290785660872m
+To: <sip:testivr3@sipgate.de>;tag=c63713a666d5644779294882ed89253a.f299
+Call-ID: 6e1417719898039330449k58164rmwp
+CSeq: 23389 ACK
+Max-Forwards: 40
+X-Webdomain: C:
+X-LS: 0
+X-UT: j
+X-MNAT: 3
+X-PLine: 1
+User-Agent: MizuJVoIP/8.0.20031
+X-FinalUA: JVoIP
+X-DeviceID: Z1Qavigg
+Organization: JVoIP
+Content-Length: 0
+
+ [mt: 48033] {38} [4739]
+[2020.03.21 18:04:49:519] EVENT,session disc because rejected 404 [ep: 1 6e1417719898039330449k58164rmwp Finished 48033] {38} [4739]
+[2020.03.21 18:04:49:520] EVENT,switching state from Finishing to Finished from 17 [ep: 1 6e1417719898039330449k58164rmwp Finished 48033] {38} [4739]
+[2020.03.21 18:04:49:520] EVENT,set deleteat 444 to 120000 [ep: 1 6e1417719898039330449k58164rmwp Finished 48033] {38} [4739]
+[2020.03.21 18:04:49:521] EVENT,call end maintenance [ep: 1 6e1417719898039330449k58164rmwp Finished 48033] {38} [4739]
+[2020.03.21 18:04:49:522] ERROR,404 call rejected Not Found
+[2020.03.21 18:04:49:523] EVENT,NOTIFICATION_XRSS,STATUS,1,Finished,testivr3,2913957e0,1,testivr3,[6e1417719898039330449k58164rmwp],1,2,0,0,0,0,0, {36} [4739]
+[2020.03.21 18:04:49:524] EVENT,STATUS,1,Finished,testivr3,2913957e0,1,testivr3,[6e1417719898039330449k58164rmwp],1,2,0,0,0,0,0, [mt: 48033] {36} [4739]
+[2020.03.21 18:04:49:549] EVENT,new call might be started from 1 [mt: 48033] {26} [4739]
+[2020.03.21 18:04:49:551] EVENT,set statustext from 24 to Call Finished {26} [4739]
+[2020.03.21 18:04:49:552] EVENT,NOTIFICATION_XRSS,STATUS,-1,Call Finished {26} [4739]
+[2020.03.21 18:04:50:791] EVENT, (voicerecording) nothing to save b 0 0 [ep: 1 6e1417719898039330449k58164rmwp Finished 48033] {36} [4739]
+[2020.03.21 18:04:52:479] EVENT,save settings wpb [wpmain] {26} [4739]
+[2020.03.21 18:04:52:481] EVENT,save settings wp [wpmain] {26} [4739]
+[2020.03.21 18:04:52:481] EVENT,write file C:\TakePart Projekt\Registration\demo(1)\demo\mwphonedata\u88wpcfg.dat (204) {26} [4739]
+[2020.03.21 18:04:52:485] EVENT,write file C:\TakePart Projekt\Registration\demo(1)\demo\mwphonedata\u88wpcfgex.dat (2752) {26} [4739]
+[2020.03.21 18:04:52:486] EVENT,config saved 204 [wpmain] {26} [4739]
+[2020.03.21 18:04:58:440] EVENT,set statustext from 21 to Registered. {26} [4739]
+[2020.03.21 18:04:58:441] EVENT,NOTIFICATION_XRSS,STATUS,-1,Registered. {26} [4739]
+[2020.03.21 18:04:59:548] EVENT, check mep call state [mt: 48033] {26} [4739]
+[2020.03.21 18:05:01:667] EVENT,reg state remains [yes] (1) from 12 {26} [4739]
+[2020.03.21 18:05:01:668] EVENT, in idle: no, isonline: yes,  registered: yes 2,  speaking: no,  mem: 38-0 MB, cpu: 0.0%, avg: 0.0%, threads: 12 [wpmain] {26} [4739]
+[2020.03.21 18:05:06:953] EVENT,sending to p 217.10.79.9 (4) [ep: 0 2e1543164623169248825k58163rmwp Registering 48033] {36} [4739]
+[2020.03.21 18:05:24:023] EVENT,sending to p 217.10.79.9 (4) [ep: 0 2e1543164623169248825k58163rmwp Registering 48033] {36} [4739]
+[2020.03.21 18:05:26:524] EVENT, send reregister (at 41 sec with 0 delay) [ep: 0 2e1543164623169248825k58163rmwp Registering 48033] {36} [4739]
+[2020.03.21 18:05:26:525] EVENT,build uri rule 4 [ep: 0 2e1543164623169248825k58163rmwp Registering 48033] {36} [4739]
+[2020.03.21 18:05:26:526] EVENT, build leg rule 16 [ep: 0 2e1543164623169248825k58163rmwp Registering 48033] {36} [4739]
+[2020.03.21 18:05:26:527] EVENT, build leg rule 18 [ep: 0 2e1543164623169248825k58163rmwp Registering 48033] {36} [4739]
+[2020.03.21 18:05:26:527] EVENT,sending to p 217.10.79.9 (882) [ep: 0 2e1543164623169248825k58163rmwp Registering 48033] {36} [4739]
+[2020.03.21 18:05:26:528] SEND,  to 217.10.79.9:5060 from port 16778
+REGISTER sip:sipgate.de SIP/2.0
+Via: SIP/2.0/UDP 87.163.157.10:16778;rport;branch=z9hG4bK-9p8891924728160588910r
+From: <sip:2913957e0@sipgate.de>;tag=4g2761376023453966971m
+To: <sip:2913957e0@sipgate.de>
+Call-ID: 2e1543164623169248825k58163rmwp
+CSeq: 3429 REGISTER
+Max-Forwards: 40
+Expires: 90
+X-SReason: reregister
+Authorization: Digest username="2913957e0",realm="sipgate.de",nonce="XnZYQF52VxTVREzMyMydKe4vfH9rPX8m",uri="sip:sipgate.de",response="d91e7a0fc175c7827ec4dcd355c93214",algorithm=MD5
+Contact: <sip:2913957e0@87.163.157.10:16778>
+X-Webdomain: C:
+X-LS: 0
+X-UT: j
+X-MNAT: 3
+User-Agent: MizuJVoIP/8.0.20031
+X-FinalUA: JVoIP
+X-DeviceID: Z1Qavigg
+Organization: JVoIP
+Supported: replaces
+Allow: ACK,PRACK,BYE,CANCEL,INVITE,UPDATE,MESSAGE,INFO,OPTIONS,SUBSCRIBE,NOTIFY,REFER
+Accept: application/sdp,application/dtmf-relay,text/plain
+Content-Length: 0
+
+ [mt: 48033] {36} [4739]
+[2020.03.21 18:05:26:529] EVENT,set deleteat 2 to 240000 [ep: 0 2e1543164623169248825k58163rmwp Registering 48033] {36} [4739]
+[2020.03.21 18:05:26:570] EVENT,udp packet 6 received to signaling port 16778 from 217.10.79.9:5060. length is 403 [udp localport: 16778 since: 83 ok] {38} [4739]
+[2020.03.21 18:05:26:570] REC,217.10.79.9:5060 on port 16778
+SIP/2.0 200 OK
+Via: SIP/2.0/UDP 87.163.157.10:16778;received=87.163.157.10;rport=16778;branch=z9hG4bK-9p8891924728160588910r
+From: <sip:2913957e0@sipgate.de>;tag=4g2761376023453966971m
+To: <sip:2913957e0@sipgate.de>;tag=ca40b14695a455acdff6b4fb6f6d0a8e.f299
+Call-ID: 2e1543164623169248825k58163rmwp
+CSeq: 3429 REGISTER
+Contact: <sip:2913957e0@87.163.157.10:16778>;expires=90
+Content-Length: 0
+
+ [mt: 48033] {38} [4739]
+[2020.03.21 18:05:26:571] EVENT,existing ep found for message 2e1543164623169248825k58163rmwp [mt: 48033] {38} [4739]
+[2020.03.21 18:05:26:572] EVENT,cseq set1 to 3429 [ep: 0 2e1543164623169248825k58163rmwp Registering 48033] {38} [4739]
+[2020.03.21 18:05:26:573] EVENT,set dialog_to 1 to: <sip:2913957e0@sipgate.de>;tag=ca40b14695a455acdff6b4fb6f6d0a8e.f299    (dialog_from is: <sip:2913957e0@sipgate.de>;tag=4g2761376023453966971m) [ep: 0 2e1543164623169248825k58163rmwp Registering 48033] {38} [4739]
+[2020.03.21 18:05:26:573] EVENT,set totag 1 to: ca40b14695a455acdff6b4fb6f6d0a8e.f299 [ep: 0 2e1543164623169248825k58163rmwp Registering 48033] {38} [4739]
+[2020.03.21 18:05:26:574] EVENT,reg state remains [yes] (1) from 15 {38} [4739]
+[2020.03.21 18:05:26:575] EVENT,reg state change from Not initialized to Success [ep: 0 2e1543164623169248825k58163rmwp Registering 48033] {38} [4739]
+[2020.03.21 18:05:26:576] EVENT,reg state remains [yes] (1) from 7 {36} [4739]
+[2020.03.21 18:05:26:578] EVENT,NOTIFICATION_XRSS,STATUS,0,Registered,testivr3,2913957e0,1,testivr3,[2e1543164623169248825k58163rmwp],1,2,0,0,0,0,0, {36} [4739]
+[2020.03.21 18:05:26:579] EVENT,STATUS,0,Registered,testivr3,2913957e0,1,testivr3,[2e1543164623169248825k58163rmwp],1,2,0,0,0,0,0, [mt: 48033] {36} [4739]
+[2020.03.21 18:05:31:755] EVENT, in idle: no, isonline: yes,  registered: yes 2,  speaking: no,  mem: 40-0 MB, cpu: 0.0%, avg: 0.0%, threads: 12 [wpmain] {26} [4739]
+[2020.03.21 18:05:32:288] EVENT,mainthread save ini settings because lastsuccip2= [mt: 48033] {36} [4739]
+[2020.03.21 18:05:32:291] EVENT,write file C:\TakePart Projekt\Registration\demo(1)\demo\mwphonedata\u88wpcfgex.dat (2752) {36} [4739]
+[2020.03.21 18:05:40:863] EVENT,udp rec timeout (10 16780) Receive timed out [udp localport: 16780 since: 52 err] {39} [4739]
+[2020.03.21 18:05:40:865] EVENT,set priority to min from udp11 (idle: false) {39} [4739]
+[2020.03.21 18:05:43:964] EVENT,sending to p 217.10.79.9 (4) [ep: 0 2e1543164623169248825k58163rmwp Registering 48033] {36} [4739]
+[2020.03.21 18:06:01:427] EVENT,sending to p 217.10.79.9 (4) [ep: 0 2e1543164623169248825k58163rmwp Registering 48033] {36} [4739]
+[2020.03.21 18:06:01:812] EVENT,reg state remains [yes] (1) from 12 {26} [4739]
+[2020.03.21 18:06:01:813] EVENT, in idle: no, isonline: yes,  registered: yes 2,  speaking: no,  mem: 41-0 MB, cpu: 0.0%, avg: 0.0%, threads: 12 [wpmain] {26} [4739]
+[2020.03.21 18:06:08:180] EVENT, send reregister (at 41 sec with 0 delay) [ep: 0 2e1543164623169248825k58163rmwp Registering 48033] {36} [4739]
+[2020.03.21 18:06:08:181] EVENT,build uri rule 4 [ep: 0 2e1543164623169248825k58163rmwp Registering 48033] {36} [4739]
+[2020.03.21 18:06:08:182] EVENT, build leg rule 16 [ep: 0 2e1543164623169248825k58163rmwp Registering 48033] {36} [4739]
+[2020.03.21 18:06:08:183] EVENT, build leg rule 18 [ep: 0 2e1543164623169248825k58163rmwp Registering 48033] {36} [4739]
+[2020.03.21 18:06:08:184] EVENT,sending to p 217.10.79.9 (882) [ep: 0 2e1543164623169248825k58163rmwp Registering 48033] {36} [4739]
+[2020.03.21 18:06:08:185] SEND,  to 217.10.79.9:5060 from port 16778
+REGISTER sip:sipgate.de SIP/2.0
+Via: SIP/2.0/UDP 87.163.157.10:16778;rport;branch=z9hG4bK-9p5430000878452996724r
+From: <sip:2913957e0@sipgate.de>;tag=4g2761376023453966971m
+To: <sip:2913957e0@sipgate.de>
+Call-ID: 2e1543164623169248825k58163rmwp
+CSeq: 3430 REGISTER
+Max-Forwards: 40
+Expires: 90
+X-SReason: reregister
+Authorization: Digest username="2913957e0",realm="sipgate.de",nonce="XnZYQF52VxTVREzMyMydKe4vfH9rPX8m",uri="sip:sipgate.de",response="d91e7a0fc175c7827ec4dcd355c93214",algorithm=MD5
+Contact: <sip:2913957e0@87.163.157.10:16778>
+X-Webdomain: C:
+X-LS: 0
+X-UT: j
+X-MNAT: 3
+User-Agent: MizuJVoIP/8.0.20031
+X-FinalUA: JVoIP
+X-DeviceID: Z1Qavigg
+Organization: JVoIP
+Supported: replaces
+Allow: ACK,PRACK,BYE,CANCEL,INVITE,UPDATE,MESSAGE,INFO,OPTIONS,SUBSCRIBE,NOTIFY,REFER
+Accept: application/sdp,application/dtmf-relay,text/plain
+Content-Length: 0
+
+ [mt: 48033] {36} [4739]
+[2020.03.21 18:06:08:186] EVENT,set deleteat 2 to 240000 [ep: 0 2e1543164623169248825k58163rmwp Registering 48033] {36} [4739]
+[2020.03.21 18:06:08:225] EVENT,udp packet 7 received to signaling port 16778 from 217.10.79.9:5060. length is 403 [udp localport: 16778 since: 125 ok] {38} [4739]
+[2020.03.21 18:06:08:226] REC,217.10.79.9:5060 on port 16778
+SIP/2.0 200 OK
+Via: SIP/2.0/UDP 87.163.157.10:16778;received=87.163.157.10;rport=16778;branch=z9hG4bK-9p5430000878452996724r
+From: <sip:2913957e0@sipgate.de>;tag=4g2761376023453966971m
+To: <sip:2913957e0@sipgate.de>;tag=ca40b14695a455acdff6b4fb6f6d0a8e.f299
+Call-ID: 2e1543164623169248825k58163rmwp
+CSeq: 3430 REGISTER
+Contact: <sip:2913957e0@87.163.157.10:16778>;expires=90
+Content-Length: 0
+
+ [mt: 48033] {38} [4739]
+[2020.03.21 18:06:08:227] EVENT,existing ep found for message 2e1543164623169248825k58163rmwp [mt: 48033] {38} [4739]
+[2020.03.21 18:06:08:227] EVENT,cseq set1 to 3430 [ep: 0 2e1543164623169248825k58163rmwp Registering 48033] {38} [4739]
+[2020.03.21 18:06:08:228] EVENT,set dialog_to 1 to: <sip:2913957e0@sipgate.de>;tag=ca40b14695a455acdff6b4fb6f6d0a8e.f299    (dialog_from is: <sip:2913957e0@sipgate.de>;tag=4g2761376023453966971m) [ep: 0 2e1543164623169248825k58163rmwp Registering 48033] {38} [4739]
+[2020.03.21 18:06:08:229] EVENT,set totag 1 to: ca40b14695a455acdff6b4fb6f6d0a8e.f299 [ep: 0 2e1543164623169248825k58163rmwp Registering 48033] {38} [4739]
+[2020.03.21 18:06:08:229] EVENT,reg state remains [yes] (1) from 15 {38} [4739]
+[2020.03.21 18:06:08:230] EVENT,reg state change from Not initialized to Success [ep: 0 2e1543164623169248825k58163rmwp Registering 48033] {38} [4739]
+[2020.03.21 18:06:08:232] EVENT,reg state remains [yes] (1) from 7 {36} [4739]
+[2020.03.21 18:06:08:233] EVENT,NOTIFICATION_XRSS,STATUS,0,Registered,testivr3,2913957e0,1,testivr3,[2e1543164623169248825k58163rmwp],1,2,0,0,0,0,0, {36} [4739]
+[2020.03.21 18:06:08:234] EVENT,STATUS,0,Registered,testivr3,2913957e0,1,testivr3,[2e1543164623169248825k58163rmwp],1,2,0,0,0,0,0, [mt: 48033] {36} [4739]
+[2020.03.21 18:06:13:907] EVENT,mainthread save ini settings because lastsuccip2= [mt: 48033] {36} [4739]
+[2020.03.21 18:06:13:911] EVENT,write file C:\TakePart Projekt\Registration\demo(1)\demo\mwphonedata\u88wpcfgex.dat (2752) {36} [4739]
+[2020.03.21 18:06:25:590] EVENT,sending to p 217.10.79.9 (4) [ep: 0 2e1543164623169248825k58163rmwp Registering 48033] {36} [4739]
+[2020.03.21 18:06:31:901] EVENT,reg state remains [yes] (1) from 12 {26} [4739]
+[2020.03.21 18:06:31:902] EVENT, in idle: no, isonline: yes,  registered: yes 2,  speaking: no,  mem: 44-0 MB, cpu: 0.0%, avg: 0.0%, threads: 12 [wpmain] {26} [4739]
+[2020.03.21 18:06:43:089] EVENT,sending to p 217.10.79.9 (4) [ep: 0 2e1543164623169248825k58163rmwp Registering 48033] {36} [4739]
+[2020.03.21 18:06:48:578] EVENT,mainthread checkinettime a [mt: 48033] {36} [4739]
+[2020.03.21 18:06:49:239] EVENT, send reregister (at 41 sec with 0 delay) [ep: 0 2e1543164623169248825k58163rmwp Registering 48033] {36} [4739]
+[2020.03.21 18:06:49:240] EVENT,build uri rule 4 [ep: 0 2e1543164623169248825k58163rmwp Registering 48033] {36} [4739]
+[2020.03.21 18:06:49:240] EVENT, build leg rule 16 [ep: 0 2e1543164623169248825k58163rmwp Registering 48033] {36} [4739]
+[2020.03.21 18:06:49:241] EVENT, build leg rule 18 [ep: 0 2e1543164623169248825k58163rmwp Registering 48033] {36} [4739]
+[2020.03.21 18:06:49:242] EVENT,sending to p 217.10.79.9 (882) [ep: 0 2e1543164623169248825k58163rmwp Registering 48033] {36} [4739]
+[2020.03.21 18:06:49:242] SEND,  to 217.10.79.9:5060 from port 16778
+REGISTER sip:sipgate.de SIP/2.0
+Via: SIP/2.0/UDP 87.163.157.10:16778;rport;branch=z9hG4bK-9p5915896120742491369r
+From: <sip:2913957e0@sipgate.de>;tag=4g2761376023453966971m
+To: <sip:2913957e0@sipgate.de>
+Call-ID: 2e1543164623169248825k58163rmwp
+CSeq: 3431 REGISTER
+Max-Forwards: 40
+Expires: 90
+X-SReason: reregister
+Authorization: Digest username="2913957e0",realm="sipgate.de",nonce="XnZYQF52VxTVREzMyMydKe4vfH9rPX8m",uri="sip:sipgate.de",response="d91e7a0fc175c7827ec4dcd355c93214",algorithm=MD5
+Contact: <sip:2913957e0@87.163.157.10:16778>
+X-Webdomain: C:
+X-LS: 0
+X-UT: j
+X-MNAT: 3
+User-Agent: MizuJVoIP/8.0.20031
+X-FinalUA: JVoIP
+X-DeviceID: Z1Qavigg
+Organization: JVoIP
+Supported: replaces
+Allow: ACK,PRACK,BYE,CANCEL,INVITE,UPDATE,MESSAGE,INFO,OPTIONS,SUBSCRIBE,NOTIFY,REFER
+Accept: application/sdp,application/dtmf-relay,text/plain
+Content-Length: 0
+
+ [mt: 48033] {36} [4739]
+[2020.03.21 18:06:49:243] EVENT,set deleteat 2 to 240000 [ep: 0 2e1543164623169248825k58163rmwp Registering 48033] {36} [4739]
+[2020.03.21 18:06:49:278] EVENT,udp packet 8 received to signaling port 16778 from 217.10.79.9:5060. length is 403 [udp localport: 16778 since: 166 ok] {38} [4739]
+[2020.03.21 18:06:49:279] REC,217.10.79.9:5060 on port 16778
+SIP/2.0 200 OK
+Via: SIP/2.0/UDP 87.163.157.10:16778;received=87.163.157.10;rport=16778;branch=z9hG4bK-9p5915896120742491369r
+From: <sip:2913957e0@sipgate.de>;tag=4g2761376023453966971m
+To: <sip:2913957e0@sipgate.de>;tag=ca40b14695a455acdff6b4fb6f6d0a8e.f299
+Call-ID: 2e1543164623169248825k58163rmwp
+CSeq: 3431 REGISTER
+Contact: <sip:2913957e0@87.163.157.10:16778>;expires=90
+Content-Length: 0
+
+ [mt: 48033] {38} [4739]
+[2020.03.21 18:06:49:280] EVENT,existing ep found for message 2e1543164623169248825k58163rmwp [mt: 48033] {38} [4739]
+[2020.03.21 18:06:49:281] EVENT,cseq set1 to 3431 [ep: 0 2e1543164623169248825k58163rmwp Registering 48033] {38} [4739]
+[2020.03.21 18:06:49:303] EVENT,set dialog_to 1 to: <sip:2913957e0@sipgate.de>;tag=ca40b14695a455acdff6b4fb6f6d0a8e.f299    (dialog_from is: <sip:2913957e0@sipgate.de>;tag=4g2761376023453966971m) [ep: 0 2e1543164623169248825k58163rmwp Registering 48033] {38} [4739]
+[2020.03.21 18:06:49:303] EVENT,set totag 1 to: ca40b14695a455acdff6b4fb6f6d0a8e.f299 [ep: 0 2e1543164623169248825k58163rmwp Registering 48033] {38} [4739]
+[2020.03.21 18:06:49:304] EVENT,reg state remains [yes] (1) from 15 {38} [4739]
+[2020.03.21 18:06:49:304] EVENT,reg state change from Not initialized to Success [ep: 0 2e1543164623169248825k58163rmwp Registering 48033] {38} [4739]
+[2020.03.21 18:06:49:305] EVENT,reg state remains [yes] (1) from 7 {36} [4739]
+[2020.03.21 18:06:49:306] EVENT,NOTIFICATION_XRSS,STATUS,0,Registered,testivr3,2913957e0,1,testivr3,[2e1543164623169248825k58163rmwp],1,2,0,0,0,0,0, {36} [4739]
+[2020.03.21 18:06:49:306] EVENT,STATUS,0,Registered,testivr3,2913957e0,1,testivr3,[2e1543164623169248825k58163rmwp],1,2,0,0,0,0,0, [mt: 48033] {36} [4739]
+[2020.03.21 18:06:52:118] EVENT,endpoint timeout expired (100) 10800000 2642 452326806 452324164 120000 10 [ep: 1 6e1417719898039330449k58164rmwp Finished 48033] {36} [4739]
+[2020.03.21 18:06:52:120] EVENT,session disc because endpoint timeout -deleteat expired 100 [ep: 1 6e1417719898039330449k58164rmwp Finished 48033] {36} [4739]
+[2020.03.21 18:06:52:121] EVENT,switching state from Finished to Deletable from 2 [ep: 1 6e1417719898039330449k58164rmwp Finished 48033] {36} [4739]
+[2020.03.21 18:06:52:122] EVENT,set deleteat 444 to 120000 [ep: 1 6e1417719898039330449k58164rmwp Finished 48033] {36} [4739]
+[2020.03.21 18:06:52:123] EVENT,NOTIFICATION_XRSS,STATUS,1,Deletable,testivr3,2913957e0,1,testivr3,[6e1417719898039330449k58164rmwp],1,2,0,0,0,0,0, {36} [4739]
+[2020.03.21 18:06:52:124] EVENT,STATUS,1,Deletable,testivr3,2913957e0,1,testivr3,[6e1417719898039330449k58164rmwp],1,2,0,0,0,0,0, [mt: 48033] {36} [4739]
+[2020.03.21 18:06:52:133] EVENT, check mep call state [mt: 48033] {26} [4739]
+[2020.03.21 18:06:55:015] EVENT,mainthread save ini settings because lastsuccip2= [mt: 48033] {36} [4739]
+[2020.03.21 18:06:55:016] EVENT,write file C:\TakePart Projekt\Registration\demo(1)\demo\mwphonedata\u88wpcfgex.dat (2752) {36} [4739]
+[2020.03.21 18:07:02:000] EVENT,reg state remains [yes] (1) from 12 {26} [4739]
+[2020.03.21 18:07:02:001] EVENT, in idle: no, isonline: yes,  registered: yes 2,  speaking: no,  mem: 16-0 MB, cpu: 0.0%, avg: 0.0%, threads: 12 [wpmain] {26} [4739]
+[2020.03.21 18:07:06:442] EVENT,sending to p 217.10.79.9 (4) [ep: 0 2e1543164623169248825k58163rmwp Registering 48033] {36} [4739]
+[2020.03.21 18:07:23:602] EVENT,sending to p 217.10.79.9 (4) [ep: 0 2e1543164623169248825k58163rmwp Registering 48033] {36} [4739]
+[2020.03.21 18:07:30:334] EVENT, send reregister (at 41 sec with 0 delay) [ep: 0 2e1543164623169248825k58163rmwp Registering 48033] {36} [4739]
+[2020.03.21 18:07:30:335] EVENT,build uri rule 4 [ep: 0 2e1543164623169248825k58163rmwp Registering 48033] {36} [4739]
+[2020.03.21 18:07:30:335] EVENT, build leg rule 16 [ep: 0 2e1543164623169248825k58163rmwp Registering 48033] {36} [4739]
+[2020.03.21 18:07:30:336] EVENT, build leg rule 18 [ep: 0 2e1543164623169248825k58163rmwp Registering 48033] {36} [4739]
+[2020.03.21 18:07:30:337] EVENT,sending to p 217.10.79.9 (882) [ep: 0 2e1543164623169248825k58163rmwp Registering 48033] {36} [4739]
+[2020.03.21 18:07:30:337] SEND,  to 217.10.79.9:5060 from port 16778
+REGISTER sip:sipgate.de SIP/2.0
+Via: SIP/2.0/UDP 87.163.157.10:16778;rport;branch=z9hG4bK-9p3625408948272238319r
+From: <sip:2913957e0@sipgate.de>;tag=4g2761376023453966971m
+To: <sip:2913957e0@sipgate.de>
+Call-ID: 2e1543164623169248825k58163rmwp
+CSeq: 3432 REGISTER
+Max-Forwards: 40
+Expires: 90
+X-SReason: reregister
+Authorization: Digest username="2913957e0",realm="sipgate.de",nonce="XnZYQF52VxTVREzMyMydKe4vfH9rPX8m",uri="sip:sipgate.de",response="d91e7a0fc175c7827ec4dcd355c93214",algorithm=MD5
+Contact: <sip:2913957e0@87.163.157.10:16778>
+X-Webdomain: C:
+X-LS: 0
+X-UT: j
+X-MNAT: 3
+User-Agent: MizuJVoIP/8.0.20031
+X-FinalUA: JVoIP
+X-DeviceID: Z1Qavigg
+Organization: JVoIP
+Supported: replaces
+Allow: ACK,PRACK,BYE,CANCEL,INVITE,UPDATE,MESSAGE,INFO,OPTIONS,SUBSCRIBE,NOTIFY,REFER
+Accept: application/sdp,application/dtmf-relay,text/plain
+Content-Length: 0
+
+ [mt: 48033] {36} [4739]
+[2020.03.21 18:07:30:338] EVENT,set deleteat 2 to 240000 [ep: 0 2e1543164623169248825k58163rmwp Registering 48033] {36} [4739]
+[2020.03.21 18:07:30:375] EVENT,udp packet 9 received to signaling port 16778 from 217.10.79.9:5060. length is 403 [udp localport: 16778 since: 207 ok] {38} [4739]
+[2020.03.21 18:07:30:376] REC,217.10.79.9:5060 on port 16778
+SIP/2.0 200 OK
+Via: SIP/2.0/UDP 87.163.157.10:16778;received=87.163.157.10;rport=16778;branch=z9hG4bK-9p3625408948272238319r
+From: <sip:2913957e0@sipgate.de>;tag=4g2761376023453966971m
+To: <sip:2913957e0@sipgate.de>;tag=ca40b14695a455acdff6b4fb6f6d0a8e.f299
+Call-ID: 2e1543164623169248825k58163rmwp
+CSeq: 3432 REGISTER
+Contact: <sip:2913957e0@87.163.157.10:16778>;expires=90
+Content-Length: 0
+
+ [mt: 48033] {38} [4739]
+[2020.03.21 18:07:30:377] EVENT,existing ep found for message 2e1543164623169248825k58163rmwp [mt: 48033] {38} [4739]
+[2020.03.21 18:07:30:378] EVENT,cseq set1 to 3432 [ep: 0 2e1543164623169248825k58163rmwp Registering 48033] {38} [4739]
+[2020.03.21 18:07:30:378] EVENT,set dialog_to 1 to: <sip:2913957e0@sipgate.de>;tag=ca40b14695a455acdff6b4fb6f6d0a8e.f299    (dialog_from is: <sip:2913957e0@sipgate.de>;tag=4g2761376023453966971m) [ep: 0 2e1543164623169248825k58163rmwp Registering 48033] {38} [4739]
+[2020.03.21 18:07:30:379] EVENT,set totag 1 to: ca40b14695a455acdff6b4fb6f6d0a8e.f299 [ep: 0 2e1543164623169248825k58163rmwp Registering 48033] {38} [4739]
+[2020.03.21 18:07:30:380] EVENT,reg state remains [yes] (1) from 15 {38} [4739]
+[2020.03.21 18:07:30:380] EVENT,reg state change from Not initialized to Success [ep: 0 2e1543164623169248825k58163rmwp Registering 48033] {38} [4739]
+[2020.03.21 18:07:30:385] EVENT,reg state remains [yes] (1) from 7 {36} [4739]
+[2020.03.21 18:07:30:386] EVENT,NOTIFICATION_XRSS,STATUS,0,Registered,testivr3,2913957e0,1,testivr3,[2e1543164623169248825k58163rmwp],1,2,0,0,0,0,0, {36} [4739]
+[2020.03.21 18:07:30:386] EVENT,STATUS,0,Registered,testivr3,2913957e0,1,testivr3,[2e1543164623169248825k58163rmwp],1,2,0,0,0,0,0, [mt: 48033] {36} [4739]
+[2020.03.21 18:07:32:097] EVENT, in idle: no, isonline: yes,  registered: yes 2,  speaking: no,  mem: 19-0 MB, cpu: 0.0%, avg: 0.0%, threads: 12 [wpmain] {26} [4739]
+[2020.03.21 18:07:36:800] EVENT,mainthread save ini settings because lastsuccip2= [mt: 48033] {36} [4739]
+[2020.03.21 18:07:36:802] EVENT,write file C:\TakePart Projekt\Registration\demo(1)\demo\mwphonedata\u88wpcfgex.dat (2752) {36} [4739]
+[2020.03.21 18:07:47:374] EVENT,sending to p 217.10.79.9 (4) [ep: 0 2e1543164623169248825k58163rmwp Registering 48033] {36} [4739]
+[2020.03.21 18:08:02:188] EVENT,reg state remains [yes] (1) from 12 {26} [4739]
+[2020.03.21 18:08:02:189] EVENT, in idle: no, isonline: yes,  registered: yes 2,  speaking: no,  mem: 19-0 MB, cpu: 0.0%, avg: 0.0%, threads: 12 [wpmain] {26} [4739]
+[2020.03.21 18:08:04:795] EVENT,sending to p 217.10.79.9 (4) [ep: 0 2e1543164623169248825k58163rmwp Registering 48033] {36} [4739]
+[2020.03.21 18:08:11:482] EVENT, send reregister (at 41 sec with 0 delay) [ep: 0 2e1543164623169248825k58163rmwp Registering 48033] {36} [4739]
+[2020.03.21 18:08:11:483] EVENT,build uri rule 4 [ep: 0 2e1543164623169248825k58163rmwp Registering 48033] {36} [4739]
+[2020.03.21 18:08:11:484] EVENT, build leg rule 16 [ep: 0 2e1543164623169248825k58163rmwp Registering 48033] {36} [4739]
+[2020.03.21 18:08:11:484] EVENT, build leg rule 18 [ep: 0 2e1543164623169248825k58163rmwp Registering 48033] {36} [4739]
+[2020.03.21 18:08:11:485] EVENT,sending to p 217.10.79.9 (882) [ep: 0 2e1543164623169248825k58163rmwp Registering 48033] {36} [4739]
+[2020.03.21 18:08:11:485] SEND,  to 217.10.79.9:5060 from port 16778
+REGISTER sip:sipgate.de SIP/2.0
+Via: SIP/2.0/UDP 87.163.157.10:16778;rport;branch=z9hG4bK-9p4123482062936437840r
+From: <sip:2913957e0@sipgate.de>;tag=4g2761376023453966971m
+To: <sip:2913957e0@sipgate.de>
+Call-ID: 2e1543164623169248825k58163rmwp
+CSeq: 3433 REGISTER
+Max-Forwards: 40
+Expires: 90
+X-SReason: reregister
+Authorization: Digest username="2913957e0",realm="sipgate.de",nonce="XnZYQF52VxTVREzMyMydKe4vfH9rPX8m",uri="sip:sipgate.de",response="d91e7a0fc175c7827ec4dcd355c93214",algorithm=MD5
+Contact: <sip:2913957e0@87.163.157.10:16778>
+X-Webdomain: C:
+X-LS: 0
+X-UT: j
+X-MNAT: 3
+User-Agent: MizuJVoIP/8.0.20031
+X-FinalUA: JVoIP
+X-DeviceID: Z1Qavigg
+Organization: JVoIP
+Supported: replaces
+Allow: ACK,PRACK,BYE,CANCEL,INVITE,UPDATE,MESSAGE,INFO,OPTIONS,SUBSCRIBE,NOTIFY,REFER
+Accept: application/sdp,application/dtmf-relay,text/plain
+Content-Length: 0
+
+ [mt: 48033] {36} [4739]
+[2020.03.21 18:08:11:486] EVENT,set deleteat 2 to 240000 [ep: 0 2e1543164623169248825k58163rmwp Registering 48033] {36} [4739]
+[2020.03.21 18:08:11:522] REC,217.10.79.9:5060 on port 16778
+SIP/2.0 200 OK
+Via: SIP/2.0/UDP 87.163.157.10:16778;received=87.163.157.10;rport=16778;branch=z9hG4bK-9p4123482062936437840r
+From: <sip:2913957e0@sipgate.de>;tag=4g2761376023453966971m
+To: <sip:2913957e0@sipgate.de>;tag=ca40b14695a455acdff6b4fb6f6d0a8e.f299
+Call-ID: 2e1543164623169248825k58163rmwp
+CSeq: 3433 REGISTER
+Contact: <sip:2913957e0@87.163.157.10:16778>;expires=90
+Content-Length: 0
+
+ [mt: 48033] {38} [4739]
+[2020.03.21 18:08:11:523] EVENT,existing ep found for message 2e1543164623169248825k58163rmwp [mt: 48033] {38} [4739]
+[2020.03.21 18:08:11:523] EVENT,cseq set1 to 3433 [ep: 0 2e1543164623169248825k58163rmwp Registering 48033] {38} [4739]
+[2020.03.21 18:08:11:524] EVENT,set dialog_to 1 to: <sip:2913957e0@sipgate.de>;tag=ca40b14695a455acdff6b4fb6f6d0a8e.f299    (dialog_from is: <sip:2913957e0@sipgate.de>;tag=4g2761376023453966971m) [ep: 0 2e1543164623169248825k58163rmwp Registering 48033] {38} [4739]
+[2020.03.21 18:08:11:524] EVENT,set totag 1 to: ca40b14695a455acdff6b4fb6f6d0a8e.f299 [ep: 0 2e1543164623169248825k58163rmwp Registering 48033] {38} [4739]
+[2020.03.21 18:08:11:525] EVENT,reg state remains [yes] (1) from 15 {38} [4739]
+[2020.03.21 18:08:11:525] EVENT,reg state change from Not initialized to Success [ep: 0 2e1543164623169248825k58163rmwp Registering 48033] {38} [4739]
+[2020.03.21 18:08:11:534] EVENT,reg state remains [yes] (1) from 7 {36} [4739]
+[2020.03.21 18:08:11:535] EVENT,NOTIFICATION_XRSS,STATUS,0,Registered,testivr3,2913957e0,1,testivr3,[2e1543164623169248825k58163rmwp],1,2,0,0,0,0,0, {36} [4739]
+[2020.03.21 18:08:11:535] EVENT,STATUS,0,Registered,testivr3,2913957e0,1,testivr3,[2e1543164623169248825k58163rmwp],1,2,0,0,0,0,0, [mt: 48033] {36} [4739]
+[2020.03.21 18:08:17:961] EVENT,mainthread save ini settings because lastsuccip2= [mt: 48033] {36} [4739]
+[2020.03.21 18:08:17:963] EVENT,write file C:\TakePart Projekt\Registration\demo(1)\demo\mwphonedata\u88wpcfgex.dat (2752) {36} [4739]
+[2020.03.21 18:08:28:660] EVENT,sending to p 217.10.79.9 (4) [ep: 0 2e1543164623169248825k58163rmwp Registering 48033] {36} [4739]
+[2020.03.21 18:08:32:276] EVENT,reg state remains [yes] (1) from 12 {26} [4739]
+[2020.03.21 18:08:32:276] EVENT, in idle: no, isonline: yes,  registered: yes 2,  speaking: no,  mem: 22-0 MB, cpu: 0.0%, avg: 0.0%, threads: 12 [wpmain] {26} [4739]
+[2020.03.21 18:08:46:280] EVENT,sending to p 217.10.79.9 (4) [ep: 0 2e1543164623169248825k58163rmwp Registering 48033] {36} [4739]
+[2020.03.21 18:08:53:116] EVENT, send reregister (at 41 sec with 0 delay) [ep: 0 2e1543164623169248825k58163rmwp Registering 48033] {36} [4739]
+[2020.03.21 18:08:53:117] EVENT,build uri rule 4 [ep: 0 2e1543164623169248825k58163rmwp Registering 48033] {36} [4739]
+[2020.03.21 18:08:53:118] EVENT, build leg rule 16 [ep: 0 2e1543164623169248825k58163rmwp Registering 48033] {36} [4739]
+[2020.03.21 18:08:53:119] EVENT, build leg rule 18 [ep: 0 2e1543164623169248825k58163rmwp Registering 48033] {36} [4739]
+[2020.03.21 18:08:53:119] EVENT,sending to p 217.10.79.9 (882) [ep: 0 2e1543164623169248825k58163rmwp Registering 48033] {36} [4739]
+[2020.03.21 18:08:53:120] SEND,  to 217.10.79.9:5060 from port 16778
+REGISTER sip:sipgate.de SIP/2.0
+Via: SIP/2.0/UDP 87.163.157.10:16778;rport;branch=z9hG4bK-9p1703293239608104250r
+From: <sip:2913957e0@sipgate.de>;tag=4g2761376023453966971m
+To: <sip:2913957e0@sipgate.de>
+Call-ID: 2e1543164623169248825k58163rmwp
+CSeq: 3434 REGISTER
+Max-Forwards: 40
+Expires: 90
+X-SReason: reregister
+Authorization: Digest username="2913957e0",realm="sipgate.de",nonce="XnZYQF52VxTVREzMyMydKe4vfH9rPX8m",uri="sip:sipgate.de",response="d91e7a0fc175c7827ec4dcd355c93214",algorithm=MD5
+Contact: <sip:2913957e0@87.163.157.10:16778>
+X-Webdomain: C:
+X-LS: 0
+X-UT: j
+X-MNAT: 3
+User-Agent: MizuJVoIP/8.0.20031
+X-FinalUA: JVoIP
+X-DeviceID: Z1Qavigg
+Organization: JVoIP
+Supported: replaces
+Allow: ACK,PRACK,BYE,CANCEL,INVITE,UPDATE,MESSAGE,INFO,OPTIONS,SUBSCRIBE,NOTIFY,REFER
+Accept: application/sdp,application/dtmf-relay,text/plain
+Content-Length: 0
+
+ [mt: 48033] {36} [4739]
+[2020.03.21 18:08:53:120] EVENT,set deleteat 2 to 240000 [ep: 0 2e1543164623169248825k58163rmwp Registering 48033] {36} [4739]
+[2020.03.21 18:08:53:154] REC,217.10.79.9:5060 on port 16778
+SIP/2.0 200 OK
+Via: SIP/2.0/UDP 87.163.157.10:16778;received=87.163.157.10;rport=16778;branch=z9hG4bK-9p1703293239608104250r
+From: <sip:2913957e0@sipgate.de>;tag=4g2761376023453966971m
+To: <sip:2913957e0@sipgate.de>;tag=ca40b14695a455acdff6b4fb6f6d0a8e.f299
+Call-ID: 2e1543164623169248825k58163rmwp
+CSeq: 3434 REGISTER
+Contact: <sip:2913957e0@87.163.157.10:16778>;expires=90
+Content-Length: 0
+
+ [mt: 48033] {38} [4739]
+[2020.03.21 18:08:53:155] EVENT,existing ep found for message 2e1543164623169248825k58163rmwp [mt: 48033] {38} [4739]
+[2020.03.21 18:08:53:156] EVENT,cseq set1 to 3434 [ep: 0 2e1543164623169248825k58163rmwp Registering 48033] {38} [4739]
+[2020.03.21 18:08:53:156] EVENT,set dialog_to 1 to: <sip:2913957e0@sipgate.de>;tag=ca40b14695a455acdff6b4fb6f6d0a8e.f299    (dialog_from is: <sip:2913957e0@sipgate.de>;tag=4g2761376023453966971m) [ep: 0 2e1543164623169248825k58163rmwp Registering 48033] {38} [4739]
+[2020.03.21 18:08:53:157] EVENT,set totag 1 to: ca40b14695a455acdff6b4fb6f6d0a8e.f299 [ep: 0 2e1543164623169248825k58163rmwp Registering 48033] {38} [4739]
+[2020.03.21 18:08:53:157] EVENT,reg state remains [yes] (1) from 15 {38} [4739]
+[2020.03.21 18:08:53:158] EVENT,reg state change from Not initialized to Success [ep: 0 2e1543164623169248825k58163rmwp Registering 48033] {38} [4739]
+[2020.03.21 18:08:53:166] EVENT,reg state remains [yes] (1) from 7 {36} [4739]
+[2020.03.21 18:08:53:167] EVENT,NOTIFICATION_XRSS,STATUS,0,Registered,testivr3,2913957e0,1,testivr3,[2e1543164623169248825k58163rmwp],1,2,0,0,0,0,0, {36} [4739]
+[2020.03.21 18:08:53:168] EVENT,STATUS,0,Registered,testivr3,2913957e0,1,testivr3,[2e1543164623169248825k58163rmwp],1,2,0,0,0,0,0, [mt: 48033] {36} [4739]
+[2020.03.21 18:08:59:577] EVENT,mainthread save ini settings because lastsuccip2= [mt: 48033] {36} [4739]
+[2020.03.21 18:08:59:579] EVENT,write file C:\TakePart Projekt\Registration\demo(1)\demo\mwphonedata\u88wpcfgex.dat (2752) {36} [4739]
+[2020.03.21 18:09:02:374] EVENT, in idle: no, isonline: yes,  registered: yes 2,  speaking: no,  mem: 25-0 MB, cpu: 0.0%, avg: 0.0%, threads: 12 [wpmain] {26} [4739]
+[2020.03.21 18:09:10:652] EVENT,sending to p 217.10.79.9 (4) [ep: 0 2e1543164623169248825k58163rmwp Registering 48033] {36} [4739]
+[2020.03.21 18:10:09:774] EVENT,set iswsptrt30 to 4 autotransportdetect=no usetunneling=0 {1} [2194]
