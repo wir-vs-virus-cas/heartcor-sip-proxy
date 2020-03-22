@@ -2,15 +2,14 @@ package org.cas.heartcor.sip_proxy;
 
 import static java.lang.String.format;
 
-import java.io.File;
 import java.io.IOException;
 import java.io.InputStream;
-import java.net.MalformedURLException;
 import java.net.URI;
 import java.net.URISyntaxException;
 import java.net.URLEncoder;
 import java.nio.charset.Charset;
 import java.nio.file.Files;
+import java.nio.file.OpenOption;
 import java.nio.file.Paths;
 import java.util.Scanner;
 
@@ -20,13 +19,11 @@ import org.apache.http.client.methods.CloseableHttpResponse;
 import org.apache.http.client.methods.HttpPost;
 import org.apache.http.entity.ByteArrayEntity;
 import org.apache.http.entity.ContentType;
-import org.apache.http.entity.mime.MultipartEntity;
 import org.apache.http.entity.mime.MultipartEntityBuilder;
 import org.apache.http.impl.client.CloseableHttpClient;
 import org.apache.http.impl.client.HttpClients;
 
 import com.google.gson.GsonBuilder;
-import com.google.gson.JsonArray;
 import com.google.gson.JsonObject;
 import com.google.gson.JsonParser;
 
@@ -61,8 +58,7 @@ public class AlexaConversation {
 			System.out.println("Write this down somewhere: " + accessToken);
 		}
 		AlexaConversation conversation = AlexaConversation.connect(accessToken);
-		InputStream stream = Files.newInputStream(Paths.get("stream.wav"));
-		conversation.say(stream);
+		conversation.say(Files.newInputStream(Paths.get("stream_lukas_16k_mono.wav")));
 	}
 
 	private AlexaConversation(String token) {
@@ -119,35 +115,42 @@ public class AlexaConversation {
 
 		MultipartEntityBuilder multiparts = MultipartEntityBuilder.create();
 		String requestJson = getRequestJson();
-		System.out.println("==> Dispatching following request: " + requestJson);
+		System.out.println("==> Dispatching following request: \n\r" //
+				+ requestJson);
+
 		multiparts.addTextBody("request", requestJson, ContentType.APPLICATION_JSON);
 		multiparts.addBinaryBody("audio", something, ContentType.create(AUDIO_CONTENT_TYPE), "recording");
-
 		request.setEntity(multiparts.build());
+		
 		CloseableHttpResponse response = client.execute(request);
 		System.out.println("<== Got the following back: " + response);
+		String contentType = response.getHeaders("Content-Type")[0].getValue();
+		String boundary = contentType.split("boundary=")[1].split(";")[0];
+		
 		HttpEntity entity = response.getEntity();
+		String responseBody = new String(entity.getContent().readAllBytes());
+		String[] parts = responseBody.split("--" + boundary);
+		String audioPart = stripTheMultipartBullshit(parts[2]);
+		Files.write(Paths.get("result.wav"), audioPart.getBytes());
+	}
+	
+	private String stripTheMultipartBullshit(String audioBody) {
+		String result = audioBody;
+		result = result.substring(result.indexOf("\r\n") + 2);
+		result = result.substring(result.indexOf("\r\n") + 2);
+		result = result.substring(result.indexOf("\r\n") + 2);
+		result = result.substring(result.indexOf("\r\n") + 2);
+		return result;
 	}
 
 	private String getRequestJson() {
 		JsonObject request = new JsonObject();
 		JsonObject messageHeader = new JsonObject();
-		JsonArray deviceContexts = new JsonArray(1);
-		JsonObject deviceContext = new JsonObject();
-		deviceContext.addProperty("name", "some-name"); // FIXME
-		deviceContext.addProperty("namespace", "some-namespace"); // FIXME
-		JsonObject deviceContextPayload = new JsonObject();
-		deviceContextPayload.addProperty("streamId", "some-stream-id"); // FIXME
-		deviceContextPayload.addProperty("offsetInMilliseconds", "0"); // FIXME
-		deviceContextPayload.addProperty("playerActivity", "some-activity"); // FIXME
-		deviceContext.add("payload", deviceContextPayload);
-		deviceContexts.add(deviceContext);
-		messageHeader.add("deviceContext", deviceContexts);
 		request.add("messageHeader", messageHeader);
 		JsonObject messageBody = new JsonObject();
 		messageBody.addProperty("profile", "alexa-close-talk");
 		messageBody.addProperty("locale", "de-de");
-		messageBody.addProperty("format", AUDIO_CONTENT_TYPE);
+		messageBody.addProperty("format", "audio/L16; rate=16000; channels=1");
 		request.add("messageBody", messageBody);
 		return new GsonBuilder().create().toJson(request);
 	}
