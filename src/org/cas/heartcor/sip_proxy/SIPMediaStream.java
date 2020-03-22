@@ -156,16 +156,17 @@ public class SIPMediaStream extends Thread
    {
        try{
            if(audiobuffer == null || audiobufferlen < 1) return;
-           int framecount = audiobufferlen/2; //recording in 8kHz 16 bit mono, so two bytes means one frame
+           int framecount = audiobufferlen; //recording in 8kHz 16 bit mono, so two bytes means one frame
            System.out.println("storing audio to stream.wav ("+ Integer.toString(framecount)+" frames)");
-           WavFile wavFile = WavFile.newWavFile(new java.io.File("stream.wav"), 1, framecount, 16, 8000, false);
+           WavFile wavFile = WavFile.newWavFile(new java.io.File("stream.wav"), 1, framecount, 16, 16000, false);
 
            int[] framebuff = new int[2];
 
-           for(int i = 0; i < framecount; i++)
+           for(int i = 0; i < framecount / 2; i++)
            {
                framebuff[0] = bytesToInt16(audiobuffer, i * 2);
                wavFile.writeFrames(framebuff, 1);
+               wavFile.writeFrames(new int[2], 1);
            }
 
            wavFile.close();
