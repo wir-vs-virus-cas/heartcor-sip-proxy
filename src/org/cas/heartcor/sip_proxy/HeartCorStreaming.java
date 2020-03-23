@@ -1,4 +1,6 @@
 package org.cas.heartcor.sip_proxy;
+import java.io.IOException;
+import java.net.URISyntaxException;
 import java.util.Arrays;
 import java.util.List;
 
@@ -29,11 +31,6 @@ public class HeartCorStreaming{
 					String message = notifications.get(i);
 					if (message.startsWith("STATUS")) {
 						System.out.println(message);
-//						List<String> messageParameters = Arrays.asList(message.split(","));
-//						if (messageParameters.get(2).contains("Ringing") && messageParameters.get(5).equals("2")) {
-//							System.exit(1);
-//							// return from thread
-//						}
 					}
 					i++;
 				}
@@ -74,7 +71,7 @@ public class HeartCorStreaming{
 		  webphoneobj.API_SetParameter("sendmediaout_line", "0"); //no need for line headers
 		  webphoneobj.API_SetParameter("sendmedia_marks", "1"); //enable EOF/BOF packets
 
-			webphoneobj.API_Start();
+		  webphoneobj.API_Start();
 			try {
 				Thread.sleep(200);
 			} catch (InterruptedException e) {
@@ -83,9 +80,11 @@ public class HeartCorStreaming{
 			
 		  // keep connection open & register listener
           
-		  // save the stream 
+		  // Happens in SipMediaStream.java
 		  
 		  // forward to Alexa?
+			
+			
 		  
 		  // quit on Exception/ Event
 		  }

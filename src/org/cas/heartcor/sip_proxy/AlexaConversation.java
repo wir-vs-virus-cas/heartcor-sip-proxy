@@ -42,6 +42,10 @@ public class AlexaConversation {
 
 	@SuppressWarnings("resource")
 	public static void main(String[] args) throws IOException, URISyntaxException {
+		invokeAlexa();
+	}
+
+	public static  void invokeAlexa() throws IOException, URISyntaxException {
 		System.out.println("NOW TESTING: WHAT HAPPENS WHEN I SEND stream.wav to ALEXA?");
 		Scanner scanner = new Scanner(System.in);
 		System.out.println("Do you have an access token already? (y/n)");
@@ -58,10 +62,10 @@ public class AlexaConversation {
 			System.out.println("Write this down somewhere: " + accessToken);
 		}
 		AlexaConversation conversation = AlexaConversation.connect(accessToken);
-		conversation.say(Files.newInputStream(Paths.get("stream_lukas_16k_mono.wav")));
+		conversation.say(Files.newInputStream(Paths.get("stream.wav")));
 	}
 
-	private AlexaConversation(String token) {
+	AlexaConversation(String token) {
 		// non-constructible, see #connect()
 		this.token = token;
 	}
@@ -125,13 +129,16 @@ public class AlexaConversation {
 		CloseableHttpResponse response = client.execute(request);
 		System.out.println("<== Got the following back: " + response);
 		String contentType = response.getHeaders("Content-Type")[0].getValue();
-		String boundary = contentType.split("boundary=")[1].split(";")[0];
+		String boundary = contentType.split("boundary=")[0];
 		
 		HttpEntity entity = response.getEntity();
 		String responseBody = new String(entity.getContent().readAllBytes());
-		String[] parts = responseBody.split("--" + boundary);
-		String audioPart = stripTheMultipartBullshit(parts[2]);
-		Files.write(Paths.get("result.wav"), audioPart.getBytes());
+		String[] parts = responseBody.split("--");
+		if (parts!=null && parts.length>1) {
+			String audioPart = stripTheMultipartBullshit(parts[2]);
+			audioPart = audioPart.split ("\r\n")[0];
+			Files.write(Paths.get("result.wav"), audioPart.getBytes());
+		}
 	}
 	
 	private String stripTheMultipartBullshit(String audioBody) {

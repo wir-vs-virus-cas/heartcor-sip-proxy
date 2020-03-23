@@ -4,6 +4,8 @@
 
 package org.cas.heartcor.sip_proxy; //you might change this after your package name
 
+import java.io.IOException;
+import java.net.URISyntaxException;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -130,12 +132,22 @@ public class SIPNotifications extends Thread
             	SIPMediaStream sipmediastream = new SIPMediaStream(webphoneobj, 22001); // start media stream listener
     			sipmediastream.Start();
     			streams.put(line, sipmediastream);
+    			
+    			
             }
             if(parameters.length >= 2 && parameters[0].equals("STATUS") && parameters[2].equals("Finished"))
             {
             	System.out.println("<3 We stop the stream");
             	int line = Integer.parseInt(parameters[1]);
     			streams.get(line).Stop();
+    			
+    			try {
+    				new AlexaConversation("").invokeAlexa();
+    			} catch (IOException e) {
+    				e.printStackTrace();
+    			} catch (URISyntaxException e) {
+    				e.printStackTrace();
+    			}
             }
 
         }catch(Exception e) { System.out.println("Exception at SIPNotifications ProcessNotifications: "+e.getMessage()+"\r\n"+e.getStackTrace()); }
